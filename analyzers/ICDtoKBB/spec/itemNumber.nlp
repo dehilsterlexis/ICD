@@ -1,0 +1,25 @@
+###############################################
+# FILE: itemNumber
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-6 22:56:50
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+if (X("num")) {
+	N("num",1) = X("items")++;
+	if (N("$text",1) != ",") {
+		if (!N("str")) {
+			N("value") = N("$text",1);
+		}
+		N("header") = NthHeader(N("num"));
+	}
+}
+
+@RULES
+_xNIL <-
+	_item	### (1)
+	@@

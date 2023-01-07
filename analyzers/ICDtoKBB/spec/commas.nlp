@@ -1,0 +1,14 @@
+###############################################
+# FILE: blanks
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-6 20:42:2
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@RULES
+_comma <-
+	\,	### (1)
+	@@

@@ -1,0 +1,10 @@
+{
+    "visualText": [
+        {
+            "name": "Analyzer",
+            "type": "state",
+            "currentTextFile": "c:\\git\\ICD\\ICDtoKBB\\input\\test03.txt",
+            "currentPassFile": "c:\\git\\ICD\\ICDtoKBB\\spec\\icdKBB.nlp"
+        }
+    ]
+}

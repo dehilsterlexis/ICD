@@ -1,0 +1,30 @@
+###############################################
+# FILE: itemCount
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-6 20:52:45
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+if (X("num")) {
+	L("code1") = ItemValue(N("$text",2));
+	L("code2") = ItemValue(N("$text",3));
+	if (L("code1")) {
+		X("code1") = L("code1");
+	}
+	if (L("code2")) {
+		X("code2") = L("code2");
+	}
+	X("indent") = N("indent",4);
+}
+
+@RULES
+_xNIL <-
+	_xSTART	### (1)
+	_item	### (2)
+	_item	### (3)
+	_item	### (4)
+	@@

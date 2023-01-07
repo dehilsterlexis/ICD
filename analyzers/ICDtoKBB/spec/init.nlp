@@ -1,0 +1,14 @@
+###############################################
+# FILE: init
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-6 21:30:53
+# MODIFIED:
+###############################################
+
+@CODE
+
+G("headers") = findconcept(findroot(),"headers");
+DisplayKB(G("headers"),0);
+
+@@CODE

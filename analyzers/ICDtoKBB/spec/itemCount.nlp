@@ -1,0 +1,23 @@
+###############################################
+# FILE: extract
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-6 20:52:45
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+if (X("num")) {
+	X("code1") = N("$text",1);
+	X("code2") = N("$text",2);
+	X("indent") = N("indent",2);
+}
+
+@RULES
+_xNIL <-
+	_item	### (1)
+	_item	### (1)
+	_item	### (1)
+	@@

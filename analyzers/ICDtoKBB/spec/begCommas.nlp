@@ -1,0 +1,18 @@
+###############################################
+# FILE: commaItems
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-6 20:50:56
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+group(2,2,"_item");
+
+@RULES
+_xNIL <-
+	_xSTART	### (1)
+	_comma	### (2)
+	@@

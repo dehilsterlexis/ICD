@@ -1,0 +1,27 @@
+###############################################
+# FILE: commas
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-6 20:32:24
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+group(2,2,"_item");
+
+@RULES
+_xNIL <-
+	_xSTART				### (1)
+	_xWILD [fail=(\,)]	### (2)
+	@@
+
+@POST
+group(2,2,"_item");
+
+@RULES
+_xNIL <-
+	\,					### (1)
+	_xWILD [fail=(\,)]	### (2)
+	@@

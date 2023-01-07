@@ -1,0 +1,41 @@
+###############################################
+# FILE: icdKBB
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-6 22:15:59
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+
+L("file") = "icd.kbb";
+
+if (X("num")) {
+	if (X("num") == 1 && N("num") == 0) {
+		L("file") << "ICD11";
+	}
+
+	if (N("num") == 0 && N("value")) {
+		X("code") = N("value");
+	}
+	else if (N("num") == 1 && N("value")) {
+		X("code") = N("value");
+	}
+	else if (N("num") == 2) {
+		L("code") = X("code");
+		if (strcontains(".",L("code")) || strcontains("-",L("code"))) {
+			L("code") = "\"" + L("code") + "\"";
+		}
+		L("file") << "\n" << SpacesStr(N("indent")) << L("code") << ": title=[" << N("title") << "]";
+	}
+	if (N("num") > 2 && N("value")) {
+		L("file") << " " << N("header") << "=[" << N("value") << "]";
+	}
+}
+
+@RULES
+_xNIL <-
+	_item
+	@@

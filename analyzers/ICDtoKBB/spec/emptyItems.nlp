@@ -1,0 +1,14 @@
+###############################################
+# FILE: zapCommas
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-6 21:11:32
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@RULES
+_item <-
+	_comma	### (1)
+	@@

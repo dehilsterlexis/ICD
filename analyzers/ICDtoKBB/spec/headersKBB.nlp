@@ -1,0 +1,23 @@
+###############################################
+# FILE: headersKBB
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-6 21:21:29
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+if (!X("num")) {
+	if (!X("c")) {
+		"headers.kbb" << "headers" << "\n";
+	}
+	"headers.kbb" << "  " << N("$text",1) << "\n";
+	X("c")++;
+}
+
+@RULES
+_xNIL <-
+	_item	### (1)
+	@@
