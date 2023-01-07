@@ -1,0 +1,18 @@
+###############################################
+# FILE: codes
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-7 15:39:18
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+singler(2,2);
+
+@RULES
+_code <-
+	_xSTART	### (1)
+	_word
+	@@

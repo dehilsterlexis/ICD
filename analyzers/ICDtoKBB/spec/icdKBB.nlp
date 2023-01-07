@@ -29,9 +29,10 @@ if (X("num")) {
 			L("code") = "\"" + L("code") + "\"";
 		}
 		if (!L("code")) {
-			L("code") = "Chapter" + PadStr(str(G("chapter")++),"0",3);
-		} else {
-			N("indent")++;
+			L("kind") = X("ClassKind");
+			L("code") = strtotitle(L("kind")) + PadStr(str(G("chapter")++),"0",3);
+		} else if (X("code")) {
+			"codetitles.txt" << SpacesStr(N("indent")+1) << X("code") << " " << N("title") << "\n";
 		}
 		L("file") << "\n" << SpacesStr(N("indent")) << L("code") << ": title=[" << N("title") << "]";
 	}
