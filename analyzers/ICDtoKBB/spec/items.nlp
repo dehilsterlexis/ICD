@@ -22,6 +22,6 @@ singler(2,2);
 
 @RULES
 _item <-
-	_comma						### (1)
-	_xWILD [plus fail=(_comma)]	### (2)
+	_comma								### (1)
+	_xWILD [plus fail=(_item _comma)]	### (2)
 	@@

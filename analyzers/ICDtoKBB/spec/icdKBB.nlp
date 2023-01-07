@@ -28,6 +28,11 @@ if (X("num")) {
 		if (strcontains(".",L("code")) || strcontains("-",L("code"))) {
 			L("code") = "\"" + L("code") + "\"";
 		}
+		if (!L("code")) {
+			L("code") = "Chapter" + PadStr(str(G("chapter")++),"0",3);
+		} else {
+			N("indent")++;
+		}
 		L("file") << "\n" << SpacesStr(N("indent")) << L("code") << ": title=[" << N("title") << "]";
 	}
 	if (N("num") > 2 && N("value")) {

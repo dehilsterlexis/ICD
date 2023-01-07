@@ -293,6 +293,18 @@ SpacesStr(L("num")) {
 	return L("spaces");
 }
 
+PadStr(L("str"),L("padStr"),L("size")) {
+	L("len") = strlength(L("str"));
+	L("diff") = L("size") - L("len");
+	L("i") = 0;
+	L("paddedStr") = L("str");
+	while (L("i")++ < L("diff")) {
+		L("paddedStr") = L("padStr") + L("paddedStr");
+	}
+	"pad.txt" << L("paddedStr") << "\n";
+	return L("paddedStr");
+}
+
 ###############################################
 # DICTIONARY FUNCTIONS
 ###############################################
