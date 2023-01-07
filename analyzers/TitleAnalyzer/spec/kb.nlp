@@ -1,0 +1,25 @@
+###############################################
+# FILE: kb
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-7 15:45:54
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+X("con") = makeconcept(G("codes"),N("$text",1));
+@RULES
+_xNIL <-
+	_code	### (1)
+	@@
+
+@POST
+N("con") = AddUniqueCon(X("con"),N("$text",1));
+N("word con") = AddUniqueCon(G("words"),N("$text",1));
+makeconcept(N("word con"),conceptname(X("con")));
+@RULES
+_xNIL <-
+	_word
+	@@

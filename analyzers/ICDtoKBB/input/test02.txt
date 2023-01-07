@@ -1,2 +1,4 @@
+Code,BlockId,Title,ClassKind,DepthInKind,IsResidual,PrimaryLocation,ChapterNo,BrowserLink,iCatLink,isLeaf,noOfNonResidualChildren,Primary tabulation,Grouping1,Grouping2,Grouping3,Grouping4,Grouping5,Version:2023 Jan 05 - 22:30 UTC
 ,,Certain infectious or parasitic diseases,chapter,1,False,True,01,browser,iCat,False,22,,,,,,,
-1A03.Z,,"- - - - Intestinal infections due to Escherichia coli, unspecified",category,2,True,True,01,browser,iCat,True,0,True,BlockL1-1A0,BlockL2-1A0,,,,
+,,- - - - Otorhinolaryngological drugs and preparations,block,4,False,True,X,browser,iCat,False,22,,,,,,,
+XM0A16,,- - - - - Abrocitinib,category,1,False,True,X,browser,iCat,True,0,False,,,,,,

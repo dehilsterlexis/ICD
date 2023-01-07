@@ -1,0 +1,16 @@
+    BlockL1-1A0 Gastroenteritis or colitis of infectious origin
+      BlockL2-1A0 Bacterial intestinal infections
+        1A00 Cholera
+        1A01 Intestinal infection due to other Vibrio
+        1A02 Intestinal infections due to Shigella
+        1A03 Intestinal infections due to Escherichia coli
+          1A03.0 Enteropathogenic Escherichia coli infection
+          1A03.1 Enterotoxigenic Escherichia coli infection
+          1A03.2 Enteroinvasive Escherichia coli infection
+          1A03.3 Enterohaemorrhagic Escherichia coli infection
+          1A03.Y Intestinal infections due to other specified Escherichia coli
+          1A03.Z Intestinal infections due to Escherichia coli, unspecified
+        1A04 Intestinal infections due to Clostridioides difficile
+        1A05 Intestinal infections due to Yersinia enterocolitica
+        1A06 Gastroenteritis due to Campylobacter
+        1A07 Typhoid fever

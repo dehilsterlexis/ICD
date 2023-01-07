@@ -16,6 +16,8 @@ if (X("num")) {
 			N("value") = N("$text",1);
 		}
 		N("header") = NthHeader(N("num"));
+		if (N("header") == "ClassKind")
+			X("ClassKind") = N("$text",1);
 	}
 }
 

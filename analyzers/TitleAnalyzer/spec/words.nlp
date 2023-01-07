@@ -1,0 +1,14 @@
+###############################################
+# FILE: words
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-7 15:35:23
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@RULES
+_word <-
+	_xWILD [fail=(_xWHITE)]
+	@@
