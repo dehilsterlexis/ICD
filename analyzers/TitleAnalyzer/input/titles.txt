@@ -19081,7 +19081,7 @@
             XN3WK Monongahela virus
             XN5SF Muleshoe virus
             XN9VX New York virus
-            XN9BY Or�n virus
+            Or�n virus
             XN5JV Parano� virus
             XN65X Pergamino virus
             XN2VC R�o Mamor� virus

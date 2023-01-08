@@ -16,9 +16,13 @@ _xNIL <-
 	@@
 
 @POST
-N("con") = AddUniqueCon(X("con"),N("$text",1));
-N("word con") = AddUniqueCon(G("words"),N("$text",1));
+L("word") = strtolower(N("$text",1));
+N("con") = AddUniqueCon(X("con"),L("word"));
+N("word con") = AddUniqueCon(G("words"),strtolower(N("$text",1)));
 makeconcept(N("word con"),conceptname(X("con")));
+WordPOS(L("word"));
+"words.txt" << L("word") << "\n";
+
 @RULES
 _xNIL <-
 	_word
