@@ -8,7 +8,18 @@
 
 @CODE
 
-DisplayKB(G("words"));
-DisplayKB(G("codes"));
+L("word") = down(G("pos"));
+while (L("word")) {
+    L("pos") = down(L("word"));
+    while (L("pos")) {
+        "pos.dict" << conceptname(L("word")) << " pos=" << conceptname(L("pos")) << "\n";
+        L("pos") = next(L("pos"));
+    }
+    L("word") = next(L("word"));
+}
+
+# DisplayKB(G("words"),0);
+# DisplayKB(G("codes"),0);
+# DisplayKB(G("pos"),0);
 
 @@CODE
