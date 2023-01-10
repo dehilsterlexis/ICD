@@ -1,0 +1,18 @@
+body
+  head
+  neck
+  torso
+    lung
+      left
+        top: abrev=lul
+        bottom: abrev=lll
+      right
+        top: abrev=rtl
+        middle: abrev=rml
+        bottom: abrev=rbl
+  leg
+    left
+    right
+  arm
+    left
+    right

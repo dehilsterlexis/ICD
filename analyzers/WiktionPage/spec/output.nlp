@@ -1,14 +1,16 @@
 ###############################################
-# FILE: words
+# FILE: output
 # SUBJ: comment
 # AUTH: David de Hilster
-# CREATED: 2023-1-7 15:35:23
+# CREATED: 2022-11-7 14:31:34
 # MODIFIED:
 ###############################################
 
-@NODES _LINE
+@CODE
 
-@RULES
-_word <-
-	_xWILD [fail=(_xWHITE _stop _cause _conj _xPUNCT)]
-	@@
+G("vocab") << "\n";
+
+closefile(G("debug"));
+closefile(G("vocab"));
+
+@@CODE

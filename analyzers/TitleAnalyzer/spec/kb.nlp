@@ -17,11 +17,16 @@ _xNIL <-
 
 @POST
 L("word") = strtolower(N("$text",1));
-N("con") = AddUniqueCon(X("con"),L("word"));
-N("word con") = AddUniqueCon(G("words"),strtolower(N("$text",1)));
-makeconcept(N("word con"),conceptname(X("con")));
-WordPOS(L("word"));
-"words.txt" << L("word") << "\n";
+if (strlength(L("word")) > 2 && strisalpha(L("word"))) {
+	N("con") = AddUniqueCon(X("con"),L("word"));
+	N("word con") = AddUniqueCon(G("words"),strtolower(N("$text",1)));
+	makeconcept(N("word con"),conceptname(X("con")));
+	WordPOS(L("word"));
+	"words.txt" << L("word") << "\n";
+	if (!spellword(L("word"))) {
+        AddUniqueCon(G("lookups"),L("word"));
+    }
+}
 
 @RULES
 _xNIL <-

@@ -1,14 +1,13 @@
 ###############################################
-# FILE: words
+# FILE: output
 # SUBJ: comment
 # AUTH: David de Hilster
-# CREATED: 2023-1-7 15:35:23
+# CREATED: 2023-1-9 11:3:6
 # MODIFIED:
 ###############################################
 
-@NODES _LINE
+@CODE
 
-@RULES
-_word <-
-	_xWILD [fail=(_xWHITE _stop _cause _conj _xPUNCT)]
-	@@
+DisplayKB(G("words"),0);
+
+@@CODE
