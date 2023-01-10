@@ -1,0 +1,34 @@
+###############################################
+# FILE: funcs
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-8 8:12:2
+# MODIFIED:
+###############################################
+
+@DECL
+
+WordPOS(L("word")) {
+    L("word") = strtolower(L("word"));
+    if (
+        strendswith(L("word"),"genic") ||
+        strendswith(L("word"),"itic") ||
+        strendswith(L("word"),"nal")
+        ) {
+        SavePOS(L("word"),"adj");
+    }
+    else if (
+        strendswith(L("word"),"itis") ||
+        strendswith(L("word"),"tions") ||
+        strendswith(L("word"),"tion")
+        ) {
+        SavePOS(L("word"),"n");
+    }
+}
+
+SavePOS(L("word"),L("pos")) {
+    L("con") = getconcept(G("pos"),L("word"));
+    getconcept(L("con"),L("pos"));
+}
+
+@@DECL

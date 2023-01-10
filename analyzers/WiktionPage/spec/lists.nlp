@@ -1,14 +1,20 @@
 ###############################################
-# FILE: words
+# FILE: lists
 # SUBJ: comment
 # AUTH: David de Hilster
-# CREATED: 2023-1-7 15:35:23
+# CREATED: 2023-1-9 15:8:5
 # MODIFIED:
 ###############################################
 
 @NODES _LINE
 
+@POST
+X("up") = 1;
+single();
+
 @RULES
-_word <-
-	_xWILD [fail=(_xWHITE _stop _cause _conj _xPUNCT)]
+_list <-
+	\#	### (1)
+	_xWILD [fail=(_xEND)]
+	_xEND
 	@@

@@ -1,0 +1,6 @@
+coli pos=noun class=bacteria
+escherichia pos=adj class=bacteria
+intestinal pos=adj body=intestines
+enteropathogenic pos=adj body=intestines
+enterotoxigenic pos=adj body=intestines
+ocular pos=adj body=eye

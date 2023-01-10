@@ -1,0 +1,22 @@
+###############################################
+# FILE: markers
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-9 7:31:22
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@RULES
+_wordClass <- hword @@
+_pos <- parts \- of \- speech @@
+_sense <- sense \- content @@
+
+_h <- 
+	\<							### (1)
+	\/							### (2)
+	h							### (3)
+	_xWILD [one match=(1 2)]	### (4)
+	\>							### (5)
+	@@

@@ -10,6 +10,7 @@
 
 G("codes") = getconcept(findroot(),"codes");
 G("words") = getconcept(findroot(),"word");
+G("lookups") = getconcept(findroot(),"lookups");
 G("pos") = getconcept(findroot(),"pos");
 
 @@CODE

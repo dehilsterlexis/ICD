@@ -1,16 +1,16 @@
-    BlockL1-1A0 Gastroenteritis or colitis of infectious origin
-      BlockL2-1A0 Bacterial intestinal infections
-        1A00 Cholera
-        1A01 Intestinal infection due to other Vibrio
-        1A02 Intestinal infections due to Shigella
-        1A03 Intestinal infections due to Escherichia coli
-          1A03.0 Enteropathogenic Escherichia coli infection
-          1A03.1 Enterotoxigenic Escherichia coli infection
-          1A03.2 Enteroinvasive Escherichia coli infection
-          1A03.3 Enterohaemorrhagic Escherichia coli infection
-          1A03.Y Intestinal infections due to other specified Escherichia coli
-          1A03.Z Intestinal infections due to Escherichia coli, unspecified
-        1A04 Intestinal infections due to Clostridioides difficile
-        1A05 Intestinal infections due to Yersinia enterocolitica
-        1A06 Gastroenteritis due to Campylobacter
-        1A07 Typhoid fever
+          XD8689 Vascular access devices (only for haemodialysis)
+            XD9YY6 Temporary haemodialysis, catheters
+            XD3AU4 Permanent haemodialysis, catheters
+              XD3297 others
+          XD2EM7 Dialysis, adaptors
+            XD8Q72 Haemodialysis, adaptors
+            XD39M3 Peritoneal dialysis, adaptors
+          XD25C5 Dialysate tanks, collection and reinfusion
+            XD6LH4 Dialysate tanks, collection
+              XD6MC0 Haemodialysate tanks, collection
+              XD22A9 Peritoneal dialysate tanks, collection
+            XD1ZR7 Dialysate tanks, reinfusion
+          XD8A37 Extracorporeal dialysis devices
+            XD9KW0 other accessories
+            XD46Z0 others
+        XD53A5 Naso-gastric tube

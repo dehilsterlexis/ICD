@@ -1255,7 +1255,7 @@
         BlockL3-2B0 Mature T-cell or NK-cell lymphomas and lymphoproliferative disorders, primary cutaneous specified types
           2B00 Subcutaneous panniculitis-like T-cell lymphoma
           2B01 Mycosis fungoides
-          2B02 S�zary syndrome
+          2B02 Sézary syndrome
           2B03 Primary cutaneous CD-30 positive T-cell lymphoproliferative disorders
             2B03.0 Primary cutaneous CD30 positive anaplastic large cell lymphoma
             2B03.1 Lymphomatoid papulosis
@@ -2384,7 +2384,7 @@
         3A50.0 Alpha thalassaemia
           3A50.00 Mild alpha thalassaemia diseases
           3A50.01 Thalassaemic alpha-chain variants
-          3A50.02 Haemoglobin H disease (� ?/� � included)
+          3A50.02 Haemoglobin H disease (– α/– – included)
           3A50.03 Homozygous or compound heterozygous alpha0 thalassaemia
           3A50.0Y Other specified alpha thalassaemia
           3A50.0Z Alpha thalassaemia, unspecified
@@ -2666,11 +2666,11 @@
       4A43 Overlap or undifferentiated nonorgan specific systemic autoimmune disease
         4A43.0 IgG4 related disease
         4A43.1 Mikulicz disease
-        4A43.2 Sj�gren syndrome
-          4A43.20 Primary Sj�gren syndrome
-          4A43.21 Secondary Sj�gren syndrome
-          4A43.22 Paediatric onset Sj�gren syndrome
-          4A43.2Y Other specified sj�gren syndrome
+        4A43.2 Sjögren syndrome
+          4A43.20 Primary Sjögren syndrome
+          4A43.21 Secondary Sjögren syndrome
+          4A43.22 Paediatric onset Sjögren syndrome
+          4A43.2Y Other specified sjögren syndrome
         4A43.3 Mixed connective tissue disease
         4A43.4 Diffuse eosinophilic fasciitis
         4A43.Y Other specified overlap non-organ specific systemic autoimmune disease
@@ -2719,7 +2719,7 @@
         4A60.Y Other specified monogenic autoinflammatory syndromes
         4A60.Z Autoimflammatory syndrome, unspecified
       4A61 SAPHO syndrome
-      4A62 Beh�et disease
+      4A62 Behçet disease
       4A6Y Other specified autoinflammatory disorders
       4A6Z Autoinflammatory disorders, unspecified
     BlockL1-4A8 Allergic or hypersensitivity conditions
@@ -3247,7 +3247,7 @@
             5C52.00 Disorders of carnitine transport or the carnitine cycle
             5C52.01 Disorders of mitochondrial fatty acid oxidation
             5C52.02 Disorders of ketone body metabolism
-            5C52.03 Sj�gren-Larsson syndrome
+            5C52.03 Sjögren-Larsson syndrome
             5C52.0Y Other specified inborn errors of fatty acid oxidation or ketone body metabolism
             5C52.0Z Inborn errors of fatty acid oxidation or ketone body metabolism, unspecified
           5C52.1 Inborn errors of sterol metabolism
@@ -4658,7 +4658,7 @@
         8A45.4 White matter disorders due to certain specified systemic disease
           8A45.40 Demyelination due to sarcoidosis
           8A45.41 Demyelination due to systemic lupus erythematosus
-          8A45.42 Demyelination due to Sj�gren disease
+          8A45.42 Demyelination due to Sjögren disease
           8A45.43 Demyelination due to Behcet disease
           8A45.44 Demyelination due to systemic vasculitis
           8A45.45 Demyelination due to mitochondrial disease
@@ -18500,9 +18500,9 @@
             XS6B Slight limitation of physical activity
             XS9T Marked limitation of physical activity
             XS9F Unable to carry on any physical activity without discomfort
-            XS80 mild: FEV1? 80% predicted
-            XS7U moderate: 50% ?FEV1 <80% predicted
-            XS8K severe: 30% ?FEV1 <50% predicted
+            XS80 mild: FEV1≥ 80% predicted
+            XS7U moderate: 50% ≤FEV1 <80% predicted
+            XS8K severe: 30% ≤FEV1 <50% predicted
             XS50 very severe: FEV1 <30% predicted
           XS1Y Stage I: Asymptomatic, incomplete blood vessel obstruction
           XS5L Stage II: Mild claudication pain in limb
@@ -18541,10 +18541,10 @@
           XS7G Psychosocial factors present
           XS8B No psychosocial factors present
           XS11 Underweight BMI Below 18.5
-          XS43 Normal weight BMI 18.5�24.9
-          XS7R Pre-obesity BMI 25.0�29.9
-          XS3Y Obesity class I BMI 30.0�34.9
-          XS6N Obesity class II BMI 35.0�39.9
+          XS43 Normal weight BMI 18.5–24.9
+          XS7R Pre-obesity BMI 25.0–29.9
+          XS3Y Obesity class I BMI 30.0–34.9
+          XS6N Obesity class II BMI 35.0–39.9
           XS2B Obesity class III BMI greater than or equal to 40
           XS2V Single vessel disease
           XS8U Multiple vessel disease
@@ -18728,7 +18728,7 @@
               XN4FL Leptospira species
               XN4E7 Leptospira weilii
               XN77E Leptospira wolffii
-              XN5UB Leptospira�genomospecies 1 (alstonii)
+              XN5UB Leptospira genomospecies 1 (alstonii)
             XN2JD Leptotrichia
               XN734 Leptotrichia buccalis
               XN4GY Leptotrichia goodfellowii
@@ -18904,7 +18904,7 @@
               XN27L Propionibacterium propionicus
             XN9ZG Staphylococcus
               XN6BM Staphylococcus aureus
-                XN4B5 Panton-Valentine Leukocidin�producing Staphylococcus aureus
+                XN4B5 Panton-Valentine Leukocidin–producing Staphylococcus aureus
               XN0PR Staphylococcus auricularis
               XN0H1 Staphylococcus capitis
               XN99G Staphylococcus caprae
@@ -19025,7 +19025,7 @@
             XN6AD o'nyong nyong virus
             XN240 Paramana virus
             XN3YZ Pixuna virus
-            XN79Q R�o Negro virus
+            XN79Q Río Negro virus
             XN49A Ross River virus
             XN4D3 Salmon pancreatic disease virus
             XN3D4 Semliki Forest virus
@@ -19041,12 +19041,12 @@
           XN8AC Arenavirus
             XN2WG Chapare virus
             XN56K Guanarito virus
-            XN2ZL Jun�n virus
+            XN2ZL Junín virus
             XN0CU Lassa virus
             XN77P Lujo virus
             XN4ZL Lymphocytic choriomeningitis virus
             XN45B Machupo virus
-            XN55S Sabi� virus
+            XN55S Sabiá virus
           XN5VM Bornavirus
             XN395 Borna disease virus 1
             XN125 variegated squirrel bornavirus 1
@@ -19054,7 +19054,7 @@
             XN9UC Amur virus
             XN17V Crimean-Congo haemorrhagic fever virus
             XN16H Dobrava virus
-            XN2QZ g?u virus
+            XN2QZ gōu virus
             XN3GW Hantaan virus
             XN8UR Kurkino virus
             XN8AF Muju virus
@@ -19067,7 +19067,7 @@
             XN9G5 Tula virus
             XN2VY Anajatuba virus
             XN4AP Andes virus
-            XN2C8 Arauc�ria virus
+            XN2C8 Araucária virus
             XN2WJ bayou virus
             XN0A0 Bermejo virus
             XN66E Black Creek Canal virus
@@ -19081,10 +19081,10 @@
             XN3WK Monongahela virus
             XN5SF Muleshoe virus
             XN9VX New York virus
-            Or�n virus
-            XN5JV Parano� virus
+            XN9BY Orán virus
+            XN5JV Paranoá virus
             XN65X Pergamino virus
-            XN2VC R�o Mamor� virus
+            XN2VC Río Mamoré virus
             XN7R1 sin nombre virus
             XN057 Tunari virus
             XN8AQ Araraquara virus
@@ -19136,7 +19136,7 @@
             XN8JT Bundibugyo virus
             XN9QG Reston virus
             XN13U Sudan virus
-            XN8TT Ta� Forest virus
+            XN8TT Taï Forest virus
           XN0AC Flavivirus
             XN4CA Dengue virus
               XN22Z Dengue virus 1
@@ -19726,19 +19726,19 @@
             XA4T07 Lymph nodes of multiple regions
           XA0GJ0 Mononuclear phagocyte system
           XA1CN1 Hypothalamus
-          XA1EU3 Pineal�gland
-          XA8J35 Pituitary�gland
+          XA1EU3 Pineal gland
+          XA8J35 Pituitary gland
             XA9787 Rathke pouch
-          XA8RK3 Thyroid�gland
+          XA8RK3 Thyroid gland
             XA8LV3 Left lobe of thyroid gland
             XA9L72 Right lobe of thyroid gland
             XA4NE5 Isthmus of thyroid gland
             XA5109 Pyramidal lobe of thyroid gland
-          XA1342 Parathyroid�gland
+          XA1342 Parathyroid gland
           XA45E6 Pancreatic islets
           XA0NE9 Adrenal gland
-            XA8956 Adrenal�cortex
-            XA6SS0 Adrenal�medulla
+            XA8956 Adrenal cortex
+            XA6SS0 Adrenal medulla
           XA3JU6 Central nervous system
             XA0AK4 Meninges
               XA6HA2 Cerebral meninges
@@ -20173,7 +20173,7 @@
             XA2AS2 Ulnar nerve
             XA4M27 Ventral ramus
           XA7D89 Eye
-            XA17K1 Eyelid and ocular surface?
+            XA17K1 Eyelid and ocular surface​
               XA3RB1 Eyelids
                 XA9K79 Upper eyelid
                   XA53T1 Upper eyelid margin
@@ -20214,7 +20214,7 @@
                 XA3518 Aqueous humour
             XA1TF9 Eye fluid
           XA0096 Lacrimal apparatus
-            XA75Y9 Lacrimal�gland
+            XA75Y9 Lacrimal gland
               XA2PA4 Lacrimal gland ducts
               XA6CC7 Tear secretions
             XA9D80 Meibomian gland
@@ -20318,7 +20318,7 @@
                 XA5TR9 Lingual branch of the inferior alveolar artery
                 XA18M5 Maxillary artery
                   XA49F5 First portion of the maxillary artery
-                  XA0BD0 Deep temporal artery�(anterior and posterior)
+                  XA0BD0 Deep temporal artery (anterior and posterior)
                   XA7SV5 Inferior alveolar artery
                     XA3W87 Incisor branch of the Inferior alveolar artery
                     XA7AG7 Mental branch of the Inferior alveolar artery
@@ -20367,7 +20367,7 @@
                   XA2E78 Tonsillar branch of the cervical artery
                 XA6142 Transverse cervical artery
                 XA9M59 Transverse facial artery
-                XA5D86 Twig to the upper part of�lacrimal sac of the dorsal nasal artery
+                XA5D86 Twig to the upper part of lacrimal sac of the dorsal nasal artery
                 XA1XP6 Vertebral artery
                   XA3NW4 Meningeal branches of vertebral artery
                   XA6TE8 Ascending branch of the vertebral artery
@@ -20389,10 +20389,10 @@
                 XA8VA1 Medial palpebral artery
                 XA35L5 Superior palpebral arch artery
                 XA1Q49 Zygomatic branches of the lacrimal artery
-                XA4KE1 Branches to�gingiva
+                XA4KE1 Branches to gingiva
               XA9UT1 Artery of thorax
-                XA4TH8 Branches to�diaphragm of the musculophrenic artery
-                XA1PX4 Branches to lower part of the�pericardium of the musculophrenic artery
+                XA4TH8 Branches to diaphragm of the musculophrenic artery
+                XA1PX4 Branches to lower part of the pericardium of the musculophrenic artery
                 XA2KA0 Brachiocephalic trunk
                 XA3M86 Deep branch of dorsal scapular artery
                 XA7KK5 Intercostal artery
@@ -20400,19 +20400,19 @@
                 XA9S49 Internal thoracic artery
                 XA3DE1 Lateral thoracic artery
                 XA09J9 Pulmonary artery
-                XA1EE3 Lower (3rd to 11th)�posterior intercostal artery
-                XA0QG6 Lower branches of the space anastomoses of the six�anterior intercostal branches of the internal thoracic artery
+                XA1EE3 Lower (3rd to 11th) posterior intercostal artery
+                XA0QG6 Lower branches of the space anastomoses of the six anterior intercostal branches of the internal thoracic artery
                 XA7EC2 Musculophrenic artery
                 XA1190 Perforating branches of the internal thoracic artery
                 XA0WT1 Posterior intercostal artery
-                XA14K0 Six�anterior intercostal branches of the internal thoracic artery
-                XA6UQ6 Sternal�branches of the internal thoracic artery
+                XA14K0 Six anterior intercostal branches of the internal thoracic artery
+                XA6UQ6 Sternal branches of the internal thoracic artery
                 XA3311 Subcostal artery
                 XA9J15 Superior phrenic artery
                 XA8M67 Superior thoracic artery
                 XA7TT5 Supreme intercostal artery
                 XA79X5 Thoracoacromial artery
-                XA99C2 Upper branches of the six�anterior intercostal branches of the internal thoracic artery
+                XA99C2 Upper branches of the six anterior intercostal branches of the internal thoracic artery
                 XA8ES3 Oesophageal artery
                 XA8K52 Aorta of thorax
                   XA75Z8 Arch of the aorta
@@ -20423,12 +20423,12 @@
               XA9JK8 Artery of abdomen
                 XA7TZ1 Anterior suprarenal artery
                 XA82R7 Ascending branch of the left colic artery
-                XA8BY2 Branches to�abdominal muscles of the musculophrenic artery
+                XA8BY2 Branches to abdominal muscles of the musculophrenic artery
                 XA8577 Coeliac artery
                 XA26R6 Common hepatic artery
                 XA0JE4 Cystic artery
                 XA6NY6 Descending branch of the left colic artery
-                XA1VJ7 Descending�vasa recta
+                XA1VJ7 Descending vasa recta
                 XA1QB0 Dorsal pancreatic artery
                 XA0NN4 Gastroduodenal artery
                 XA5AP2 Hepatic artery
@@ -20478,15 +20478,15 @@
                 XA82V4 Median sacral artery
                 XA8X93 Middle rectal artery
                 XA69V8 Obturator artery
-                XA1MF5 Ovarian artery�in females
+                XA1MF5 Ovarian artery in females
                 XA5MN1 Perineal artery
-                XA34Z7 Posterior labial branches��of the internal pudendal artery
-                XA2025 Posterior scrotal branches�of the internal pudendal artery
+                XA34Z7 Posterior labial branches  of the internal pudendal artery
+                XA2025 Posterior scrotal branches of the internal pudendal artery
                 XA2TT0 Superficial branch of the superior gluteal artery
                 XA0AZ8 Superior branch of the lateral sacral artery
                 XA26E6 Superior gluteal artery
                 XA1426 Superior vesical artery
-                XA0UK9 Testicular artery�in males
+                XA0UK9 Testicular artery in males
                 XA85K8 Urethral artery
                 XA0610 Uterine artery
                 XA47A2 Vaginal artery
@@ -20503,8 +20503,8 @@
                 XA8ZA6 Ascending branches of the Inferior ulnar collateral artery
                 XA38W3 Axillary artery
                 XA1138 Brachial artery
-                XA5RC6 Branch to�volar carpal network of the anterior interosseous artery
-                XA91T8 Branches to the�deltoid muscle of the Profunda brachii artery
+                XA5RC6 Branch to volar carpal network of the anterior interosseous artery
+                XA91T8 Branches to the deltoid muscle of the Profunda brachii artery
                 XA4RU3 Common interosseous artery
                 XA3M37 Deep palmar arch of the radial artery
                 XA1ES5 Descending branches of the Inferior ulnar collateral artery
@@ -20520,9 +20520,9 @@
                 XA05L5 Princeps pollicis artery
                 XA2PP0 Profunda brachii artery
                 XA8RG5 Radial artery
-                XA9W25 Radial branches at the�wrist of the radial artery
+                XA9W25 Radial branches at the wrist of the radial artery
                 XA91J7 Radial branches in the hand of the radial artery
-                XA3SL1 Radial branches in the�forearm of the radial artery
+                XA3SL1 Radial branches in the forearm of the radial artery
                 XA3PZ4 Radial collateral artery
                 XA3H61 Radial recurrent artery
                 XA62C1 Radialis indicis of the radial artery
@@ -20545,10 +20545,10 @@
                 XA7BL5 Anterior tibial recurrent artery
                 XA5BU3 Ascending branch of the lateral femoral circumflex artery
                 XA0DB6 Ascending branch of the medial femoral circumflex artery
-                XA42R8 Branch of the medial inferior genicular artery to�popliteus
-                XA7WF1 Branch of the medial superior genicular artery to�vastus medialis
+                XA42R8 Branch of the medial inferior genicular artery to popliteus
+                XA7WF1 Branch of the medial superior genicular artery to vastus medialis
                 XA2DD1 Branch of the medial superior genicular artery to surface of the femur and the knee-joint
-                XA4VS8 Communicating branch of the fibular artery to the�anterior tibial artery
+                XA4VS8 Communicating branch of the fibular artery to the anterior tibial artery
                 XA7DF6 Deep branch of the descending branch of the Medial femoral circumflex artery
                 XA19F5 Deep branch of the lateral superior genicular artery
                 XA3KL5 Deep femoral artery
@@ -20568,7 +20568,7 @@
                 XA0PT7 Muscular branches of the anterior tibial artery
                 XA9TP5 Musculo-articular branch of the Descending genicular artery
                 XA0GA4 Perforating artery
-                XA1YF2 Perforating branch of the fibular artery to the�posterior tibial artery
+                XA1YF2 Perforating branch of the fibular artery to the posterior tibial artery
                 XA44K1 Popliteal artery
                 XA0882 Posterior humeral circumflex artery
                 XA6LK2 Posterior tibial artery
@@ -20650,7 +20650,7 @@
                 XA4HX4 Parietal venous lacunae
                 XA91G2 Parotid vein
                 XA98C1 Pharyngeal vein
-                XA2NF3 Posterior anastomotic vein of Labb�
+                XA2NF3 Posterior anastomotic vein of Labbé
                 XA0QP2 Pterygoid venous plexus
                 XA0M51 Sphenopalatine vein
                 XA4XY4 Stylomastoid vein
@@ -21139,7 +21139,7 @@
                 XA45K9 Upper right 2nd bicuspid
                 XA64J5 Upper right 1st bicuspid
                 XA0LE1 Upper right canine
-                XA3QH3 Upper right �lateral incisor
+                XA3QH3 Upper right  lateral incisor
                 XA43X2 Upper right central incisor
                 XA8328 Upper left 3rd molar
                 XA1YK1 Upper left 2nd molar
@@ -21147,7 +21147,7 @@
                 XA5Z15 Upper left 2nd bicuspid
                 XA3EF6 Upper left 1st bicuspid
                 XA2LF2 Upper left canine
-                XA0MG2 Upper left �lateral incisor
+                XA0MG2 Upper left  lateral incisor
                 XA9P69 Upper left central incisor
                 XA8YF6 Lower right 3rd molar
                 XA5CA4 Lower right 2nd molar
@@ -21155,7 +21155,7 @@
                 XA26X2 Lower right 2nd bicuspid
                 XA47C4 Lower right 1st bicuspid
                 XA95A1 Lower right canine
-                XA8660 Lower right �lateral incisor
+                XA8660 Lower right  lateral incisor
                 XA5NT8 Lower right central incisor
                 XA0XB1 Lower left 3rd molar
                 XA8YV5 Lower left 2nd molar
@@ -21163,13 +21163,13 @@
                 XA80S2 Lower left 2nd bicuspid
                 XA1SQ7 Lower left 1st bicuspid
                 XA8P88 Lower left canine
-                XA4B13 Lower left �lateral incisor
+                XA4B13 Lower left  lateral incisor
                 XA7B54 Lower left central incisor
               XA7675 Deciduous dentition
                 XA2GE5 Upper right 2nd molar, deciduous
                 XA7ZT9 Upper right 1st molar, deciduous
                 XA06P0 Upper right canine, deciduous
-                XA2XZ5 Upper right �lateral incisor, deciduous
+                XA2XZ5 Upper right  lateral incisor, deciduous
                 XA3BG3 Upper right central incisor, deciduous
                 XA2BD4 Upper left 2nd molar, deciduous
                 XA85K7 Upper left 1st molar, deciduous
@@ -21179,12 +21179,12 @@
                 XA6F50 Lower right 2nd molar, deciduous
                 XA36B2 Lower right 1st molar, deciduous
                 XA8KQ7 Lower right canine, deciduous
-                XA1W31 Lower right �lateral incisor, deciduous
+                XA1W31 Lower right  lateral incisor, deciduous
                 XA6TB6 Lower right central incisor, deciduous
                 XA8NE2 Lower left 2nd molar, deciduous
                 XA55D8 Lower left 1st molar, deciduous
                 XA8QV7 Lower left canine, deciduous
-                XA8MH6 Lower left �lateral incisor, deciduous
+                XA8MH6 Lower left  lateral incisor, deciduous
                 XA2RW5 Lower left central incisor, deciduous
               XA1PT3 Parts of tooth
                 XA5B71 Pulp
@@ -21608,7 +21608,7 @@
                   XA8U33 Shaft of the ulna
                   XA05C5 Styloid process of the ulna
                   XA6SV9 Upper end of ulna not otherwise specified
-                XA09H2 Carpal�bones
+                XA09H2 Carpal bones
                   XA7480 Scaphoid bone
                     XA8E71 Distal pole of scaphoid
                     XA1GV4 Distal third of the scaphoid bone
@@ -21699,7 +21699,7 @@
                   XA0K77 Fibular head
                   XA5G97 Fibular shaft
                   XA4UL1 Lateral malleolus
-                XA7NN4 Tarsal�bone
+                XA7NN4 Tarsal bone
                   XA5LU2 Calcaneus
                     XA57V1 Anterior process of calcaneus
                     XA62P4 Tuberosity of calcaneus
@@ -21714,9 +21714,9 @@
                   XA0LW4 Cuboid bone
                   XA43L9 Bone of ankle
                   XA6UL8 Tarsal canal
-                XA6VH2 Metatarsal�bone
+                XA6VH2 Metatarsal bone
                 XA39M2 Phalanx of the foot
-                  XA6U96 Proximal phalanx�of the toe
+                  XA6U96 Proximal phalanx of the toe
                     XA8KC3 Proximal phalanx of great toe
                     XA0AQ0 Proximal phalanx of second toe
                     XA11P1 Proximal phalanx of third toe
@@ -21727,7 +21727,7 @@
                     XA9YP5 Middle phalanx of third toe
                     XA2SX4 Middle phalanx of fourth toe
                     XA90F0 Middle phalanx of fifth toe
-                  XA4352 Distal phalanx�of the toe
+                  XA4352 Distal phalanx of the toe
                     XA2AC2 Distal phalanx of great toe
                     XA3QM7 Distal phalanx of second toe
                     XA38Q1 Distal phalanx of third toe
@@ -23459,7 +23459,7 @@
           XH3CQ8 Myoepithelioma
           XH7AA3 Mesenchymoma, benign
           XH1SP3 Adult cystic nephroma
-          XH2P15 ?Mesenchymal hamartoma
+          XH2P15 ​Mesenchymal hamartoma
           XH1WZ6 Ectomesenchymal chondromyxoid tumour
           XH5544 Adenosarcoma
           XH1YV7 Carcinofibroma
@@ -24070,7 +24070,7 @@
           XH9QH2 Soft tissue perineurioma
           XH4BQ8 Intraneural perineurioma
           XH1UZ6 Cellular neurothekeoma
-          XH9J01 ?Benign ??Triton tumour
+          XH9J01 ​Benign ​​Triton tumour
           XH2XP8 Malignant peripheral nerve sheath tumour
           XH5C30 Melanotic MPNST
           XH3NT0 Melanotic psammomatous MPNST
@@ -24960,7 +24960,7 @@
             XE0ES Public religious place
           XE48U Commercial area (non-recreational)
             XE319 Shop or store
-            XE058 Caf� or fast food outlet
+            XE058 Café or fast food outlet
             XE543 Commercial garage
             XE58T Office building
           XE5JL Countryside
@@ -30989,7 +30989,7 @@
             XM61M7 Viral vaccines
               XM68M6 COVID-19 vaccines
                 XM1NL1 COVID-19 vaccines, inactivated virus
-                  XM7HT3 CoronaVac�
+                  XM7HT3 CoronaVac®
                   XM8866 BBIBP-CorV
                   XM9TQ1 KCONVAC
                   XM1G90 Covaxin
@@ -31002,7 +31002,7 @@
                 XM5DF6 COVID-19 vaccines, live attenuated virus
                 XM9QW8 COVID-19 vaccines, non-replicating viral vector
                   XM4YL8 COVID-19 Vaccine AstraZeneca
-                  XM97T2 Covishield�
+                  XM97T2 Covishield®
                   XM6QV1 COVID-19 Vaccine Janssen
                   XM1AG7 Convidecia
                   XM5ZJ4 Gam-Covid-Vac
@@ -31022,7 +31022,7 @@
                 XM6AT1 COVID-19 vaccines, DNA based
                   XM52P3 ZyCov-D
                 XM0GQ8 COVID-19 vaccines, RNA based
-                  XM8NQ0 Comirnaty�
+                  XM8NQ0 Comirnaty®
                   XM3DT5 COVID-19 Vaccine Moderna
               XM38G7 Dengue vaccines
               XM7P50 Ebola vaccines
@@ -33641,7 +33641,7 @@
         XM9RM0 Amyl propionate
           XM26J2 Amphibian toxin
             XM0KH6 Frog toxin
-              XM0CW7 Bruno�s casque headed frog venom
+              XM0CW7 Bruno’s casque headed frog venom
               XM8QW3 Greening's frog venom
               XM7JP5 Poison dart frog poison
                 XM4BD8 Golden poison frog poison
@@ -33971,20 +33971,20 @@
             XM7SP6 Carbon monoxide from engine exhaust gas
               XM7R97 Carbon monoxide from engine driven electrical generator
               XM2LM9 Carbon monoxide from motor vehicle exhaust
-            XM4QD5 Carbon monoxide from incomplete combustion of�charcoal
-            XM2EK4 Carbon monoxide from incomplete combustion of�coal
-            XM7NG7 Carbon monoxide from incomplete combustion of�coke
+            XM4QD5 Carbon monoxide from incomplete combustion of charcoal
+            XM2EK4 Carbon monoxide from incomplete combustion of coal
+            XM7NG7 Carbon monoxide from incomplete combustion of coke
             XM9675 Carbon monoxide from incomplete combustion of fuel gas
-              XM1MB6 Carbon monoxide from incomplete combustion of�acetylene
-              XM5TT8 Carbon monoxide from incomplete combustion of�coal gas
+              XM1MB6 Carbon monoxide from incomplete combustion of acetylene
+              XM5TT8 Carbon monoxide from incomplete combustion of coal gas
               XM1JF3 Carbon monoxide from incomplete combustion of producer gas
-              XM3ES0 Carbon monoxide from incomplete combustion of�utility gas
-                XM5XY1 Carbon monoxide from incomplete combustion of�liquefied petroleum gas
-                  XM45F2 Carbon monoxide from incomplete combustion of�butane
+              XM3ES0 Carbon monoxide from incomplete combustion of utility gas
+                XM5XY1 Carbon monoxide from incomplete combustion of liquefied petroleum gas
+                  XM45F2 Carbon monoxide from incomplete combustion of butane
                   XM3UB7 Carbon monoxide from incomplete combustion of propane
                 XM6708 Carbon monoxide from incomplete combustion of utility natural gas
-              XM9ZV7 Carbon monoxide from incomplete combustion of�water gas
-            XM8WR8 Carbon monoxide from incomplete combustion of�wood
+              XM9ZV7 Carbon monoxide from incomplete combustion of water gas
+            XM8WR8 Carbon monoxide from incomplete combustion of wood
           XM0GT6 Chlorine
           XM3KE4 Cyanic acid
           XM8Z33 Diazomethane
@@ -34098,7 +34098,7 @@
             XM0DR1 Cacodyl
             XM6C50 Cacodylic acid
             XM1BL4 Chlorovinyldichloroarsine
-            XM8SC0 Copper�arsenic complex
+            XM8SC0 Copper arsenic complex
             XM9YA9 Diphenylchlorarsine
             XM1AE2 Ethyl dichloroarsine
             XM8LC6 Lead arsenate
@@ -34190,7 +34190,7 @@
               XM90P2 Methoxyethyl mercuric chloride
             XM9524 Mercuric chloride nonmedicinal
             XM39J4 Mercuric cyanide nonmedicinal
-            XM5X38 Mercuric�oxide nonmedicinal
+            XM5X38 Mercuric oxide nonmedicinal
             XM8HV3 Mercuric sulfate nonmedicinal
             XM4WJ1 Mercury fulminate
             XM3W50 Mercury thiocyanate
@@ -34261,7 +34261,7 @@
                 XM1N69 Hydroquinone vapor
               XM00E9 Toluene
               XM0D44 Xylene
-            XM3TU9 Benzene�vapor
+            XM3TU9 Benzene vapor
             XM9UH2 Diphenylmethane
             XM83H3 Nitroderivative or aminoderivative of benzene or benzene homologue
               XM76E2 Aniline
@@ -34307,7 +34307,7 @@
           XM1LN6 Dipentene
           XM5L21 Epichlorhydrin
           XM29X5 Ethyl benzoate
-          XM0N40 Ethyl ether�nonmedicinal
+          XM0N40 Ethyl ether nonmedicinal
             XM5YV7 Phenylglycidylether
           XM6FX9 Ethyl formate
           XM7TN8 Ethyl hydroxyisobutyrate
@@ -34381,14 +34381,14 @@
               XM2BC0 Furniture polish
               XM1J33 Metal polish
                 XM5J78 Silver polish
-              XM1P52 Porcelain�polish
+              XM1P52 Porcelain polish
             XM3JF2 Polyester resin hardener
               XM3EF0 Polyester resin hardener fumes
           XM1762 Ethylene glycol
             XM0WA9 Ethylene glycol dinitrate
             XM8BF5 Ethylene glycol monobutyl ether
-            XM4E62 Ethylene�glycol�monoethyl�ether
-            XM0C04 Ethylene�glycol�monomethyl�ether
+            XM4E62 Ethylene glycol monoethyl ether
+            XM0C04 Ethylene glycol monomethyl ether
           XM55M8 Diethylene glycol
             XM3834 Diethylene glycol monoacetate
             XM1A56 Diethylene glycol monobutyl ether
@@ -34442,7 +34442,7 @@
             XM0BM0 Gyromita ambigua mushroom
             XM76X5 Gyromita esculenta mushroom
             XM3LC5 Gyromita infula mushroom
-          XM1PK2 Hapalopilus rutilans�mushroom
+          XM1PK2 Hapalopilus rutilans mushroom
           XM87D0 Hebeloma crustuliniforme mushroom
           XM9B73 Inocybe mushroom
           XM2BC2 Lepiota mushroom
@@ -34682,7 +34682,7 @@
           XM5FV8 Window cleaning fluid, not elsewhere classified
           XM6PY1 Paratertiary butylphenol
           XM6000 6-Methylcoumarin
-          XM2EK8 4,4�-Diaminodiphenyl methane
+          XM2EK8 4,4’-Diaminodiphenyl methane
           XM7N15 Hydroxyisohexyl 3-cyclohexene carboxaldehyde
           XM2TV3 Farnesol
           XM3MM6 Bisphenol A-glycidyl methacrylate
