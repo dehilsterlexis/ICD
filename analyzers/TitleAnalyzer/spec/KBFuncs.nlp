@@ -239,7 +239,13 @@ DisplayKBRecurse(L("file"),L("parent"),L("level"),L("display type")) {
 	}
 	L("con") = down(L("parent"));
 	while (L("con")) {
-		L("file") << SpacesStr(L("level")+1) << conceptname(L("con"));
+		L("name") = conceptname(L("con"));
+		L("file") << SpacesStr(L("level")+1);
+		if (DisplayValNeedsQuote(L("name")))
+			L("file") << "\"";
+		L("file") << L("name");
+		if (DisplayValNeedsQuote(L("name")))
+			L("file") << "\"";
 		DisplayAttributes(L("file"),L("con"),L("display type"),L("level"));
 		L("file") << "\n";
 		if (down(L("con"))) {
@@ -309,7 +315,7 @@ DisplayAttributes(L("file"),L("con"),L("display type"),L("level")) {
 }
 
 DisplayValNeedsQuote(L("str")) {
-	if (strcontains(" ",L("str")) || strcontains("[",L("str")) || strcontains("]",L("str")))
+	if (strcontains(" ",L("str")) || strcontains("[",L("str")) || strcontains("]",L("str")) || strcontains(".",L("str")))
 		return 1;
 	return 0;
 }

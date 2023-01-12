@@ -9,8 +9,9 @@
 @CODE
 
 G("codes") = getconcept(findroot(),"codes");
-G("word") = getconcept(findroot(),"word");
+G("words") = getconcept(findroot(),"words");
 G("matches") = getconcept(findroot(),"matches");
+G("order") = getconcept(findroot(),"order");
 G("icd11") = getconcept(findroot(),"ICD11");
 
 @@CODE

@@ -8,13 +8,43 @@
 
 @DECL
 
-MatchCount(L("word")) {
-    L("code") = down(G("codes"));
-    while (L("code")) {
-        
-        L("code") = next(L("code"));
+DisplayCode(L("code")) {
+    L("codename") = conceptname(L("code"));
+    L("con") = FindCodeHier(L("codename"),G("icd11"));
+    if (L("con")) {
+        L("count") = 0;
+        while (up(L("con")) && conceptname(L("con")) != "ICD11") {
+            L("path")[L("i")++] = L("con");
+            L("count")++;
+            L("con") = up(L("con"));
+        }
+        L("i") = L("count") - 1;
+        L("indent") = 0;
+        while (L("i") >= 0) {
+            L("con") = L("path")[L("i")];
+            L("title") = strval(L("con"),"title");
+            "matches.txt" << SpacesStr(L("indent")) << conceptname(L("con")) << ": " << L("title") << "\n";
+            L("con") = down(L("con"));
+            L("indent") = L("indent") + 2;
+            L("i")--;
+        }
     }
+}
 
+FindCodeHier(L("code"),L("con")) {
+    L("child") = down(L("con"));
+    while (L("child")) {
+        # "debug.txt" << conceptname(L("child")) << "\n";
+        if (conceptname(L("child")) == L("code")) {
+            return L("child");
+        }
+        if (down(L("child"))) {
+            L("found") = FindCodeHier(L("code"),L("child"));
+            if (L("found"))
+                return L("found");
+        }
+        L("child") = next(L("child"));
+    }
 }
 
 @@DECL

@@ -1,15 +1,3 @@
-          XD8689 Vascular access devices (only for haemodialysis)
-            XD9YY6 Temporary haemodialysis, catheters
-            XD3AU4 Permanent haemodialysis, catheters
-              XD3297 others
-          XD2EM7 Dialysis, adaptors
-            XD8Q72 Haemodialysis, adaptors
-            XD39M3 Peritoneal dialysis, adaptors
-          XD25C5 Dialysate tanks, collection and reinfusion
-            XD6LH4 Dialysate tanks, collection
-              XD6MC0 Haemodialysate tanks, collection
-              XD22A9 Peritoneal dialysate tanks, collection
-            XD1ZR7 Dialysate tanks, reinfusion
-          XD8A37 Extracorporeal dialysis devices
-            XD9KW0 other accessories
-            XD46Z0 others
+          1A09.0 Salmonella enteritis
+          1A09.Y Infections (due) to other Salmonella in other organs
+          1A09.Z Salmonella infection, unspecified

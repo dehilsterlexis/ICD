@@ -4,7 +4,7 @@
             "name": "Analyzer",
             "type": "state",
             "currentTextFile": "c:\\git\\ICD\\analyzers\\ICDtoKBB\\input\\hold\\LinearizationMiniOutput-MMS-en.csv",
-            "currentPassFile": "c:\\git\\ICD\\analyzers\\ICDtoKBB\\spec\\KBFuncs.nlp"
+            "currentPassFile": "c:\\git\\ICD\\analyzers\\ICDtoKBB\\spec\\icdKBB.nlp"
         }
     ]
 }

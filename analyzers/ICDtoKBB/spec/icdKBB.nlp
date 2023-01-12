@@ -36,8 +36,8 @@ if (X("num")) {
 		} else if (X("code")) {
 			"codetitles.txt" << SpacesStr(N("indent")+1) << X("code") << " " << N("title") << "\n";
 		}
-		L("file") << "\n" << SpacesStr(N("indent")) << L("code");
-		L("hier") << "\n" << SpacesStr(N("indent")) << L("code");
+		L("file") << "\n" << SpacesStr(N("indent")) << "\"" << L("code") << "\"";
+		L("hier") << "\n" << SpacesStr(N("indent")) << "\"" << L("code") << "\"";
 		if (strlength(N("title")) > 1) {
 			L("file") << ": title=\"" << N("title") << "\"";
 			L("hier") << ": title=\"" << N("title") << "\"";

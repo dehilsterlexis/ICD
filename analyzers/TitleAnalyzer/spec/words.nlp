@@ -10,5 +10,5 @@
 
 @RULES
 _word <-
-	_xWILD [fail=(_xWHITE _stop _cause _conj _xPUNCT)]
+	_xWILD [match=(_xALPHA _xNUM \.)]
 	@@

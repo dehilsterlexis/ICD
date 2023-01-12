@@ -8,7 +8,53 @@
 
 @CODE
 
+L("match") = down(G("matches"));
+while (L("match")) {
+    L("code") = findconcept(G("codes"),conceptname(L("match")));
+    if (L("code")) {
+        L("match count") = ChildCount(L("match"));
+        L("code count") = ChildCount(L("code"));
+        L("percent") = 100*L("match count")/L("code count");
+        "percent.txt" << conceptname(L("match")) << " " << str(L("percent")) << "\n";
+        L("con") = getconcept(G("order"),str(L("percent")));
+        L("code con") = getconcept(L("con"),conceptname(L("code")));
+        L("child") = down(L("match"));
+        while (L("child")) {
+            makeconcept(L("code con"),conceptname(L("child")));
+            L("child") = next(L("child"));
+        }
+    }
+    L("match") = next(L("match"));
+}
+
+L("percent") = 100;
+L("count") = 1;
+while (L("percent") > 50) {
+    L("con") = findconcept(G("order"),str(L("percent")));
+    if (L("con")) {
+        L("codes") = down(L("con"));
+        while (L("codes")) {
+            L("code") = conceptname(L("codes"));
+            if (L("count")) "matches.txt" << "\n";
+            L("count")++;
+            "matches.txt" << "Match (" << str(L("percent")) << "): " << L("code");
+            L("child") = down(L("codes"));
+            while (L("child")) {
+                "matches.txt" << " " << conceptname(L("child"));
+                L("child") = next(L("child"));
+            }
+            "matches.txt" << "\n";
+            L("code con") = findconcept(G("codes"),L("code"));
+            DisplayCode(L("code con"));
+            L("codes") = next(L("codes"));
+        }
+    }
+    L("percent")--;
+}
+
+DisplayKB(G("order"),0);
 DisplayKB(G("matches"),0);
+# DisplayKB(G("codes"),0);
 # DisplayKB(G("icd11"),2);
 
 @@CODE
