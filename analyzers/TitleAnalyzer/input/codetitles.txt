@@ -1115,7 +1115,7 @@
         2A3Z Myelodysplastic syndromes, unspecified
       BlockL2-2A4 Myelodysplastic and myeloproliferative neoplasms
         2A40 Chronic myelomonocytic leukaemia
-          2A41 negative
+        2A41 Atypical chronic myeloid leukaemia, BCR-ABL1- negative
         2A42 Juvenile myelomonocytic leukaemia
           2A42.0 Juvenile myelomonocytic leukaemia in complete remission
           2A42.Y Other specified juvenile myelomonocytic leukaemia
@@ -2623,7 +2623,7 @@
           4A01.30 Immunodeficiency due to defects of the thymus
           4A01.31 DNA repair defects other than combined T-cell or B-cell immunodeficiencies
           4A01.32 Immuno-osseous dysplasia
-            4A01.33 immunodeficiency syndrome
+          4A01.33 Hepatic veno-occlusive disease - immunodeficiency syndrome
           4A01.34 Hyperimmunoglobulin E syndromes
         4A01.Z Primary immunodeficiencies due to disorders of adaptive immunity, unspecified
       4A0Y Other specified primary immunodeficiencies
@@ -3325,7 +3325,7 @@
           5C56.Z Lysosomal diseases, unspecified
         5C57 Peroxisomal diseases
           5C57.0 Disorders of peroxisome biogenesis
-            5C57.1 or omega-oxidation
+          5C57.1 Disorders of peroxisomal alpha-, beta- or omega-oxidation
           5C57.Y Other specified peroxisomal diseases
           5C57.Z Peroxisomal diseases, unspecified
         5C58 Inborn errors of porphyrin or heme metabolism
@@ -4859,8 +4859,8 @@
         8B22.A Subclavian steal syndrome
         8B22.B Moyamoya syndrome
         8B22.C Hereditary cerebrovascular diseases
-            8B22.C0 [cerebral autosomal dominant arteriopathy with subcortical infarcts and leukoencephalopathy] syndrome
-            8B22.C1 [cerebral autosomal recessive arteriopathy with subcortical infarcts and leukoencephalopathy] syndrome
+          8B22.C0 CADASIL - [cerebral autosomal dominant arteriopathy with subcortical infarcts and leukoencephalopathy] syndrome
+          8B22.C1 CARASIL - [cerebral autosomal recessive arteriopathy with subcortical infarcts and leukoencephalopathy] syndrome
           8B22.CY Other specified hereditary cerebrovascular diseases
           8B22.CZ Hereditary cerebrovascular diseases, unspecified
         8B22.Y Other specified cerebrovascular disease
@@ -5492,7 +5492,7 @@
         9A2Z Disorders of orbit, unspecified
       9A4Y Other specified disorders of the ocular adnexa or orbit
       9A4Z Disorders of the ocular adnexa or orbit, unspecified
-      BlockL1-9A6 anterior segment
+    BlockL1-9A6 Disorders of the eyeball - anterior segment
       BlockL2-9A6 Disorders of conjunctiva
         9A60 Conjunctivitis
           9A60.0 Papillary conjunctivitis
@@ -5652,9 +5652,9 @@
           9B11.1 Dislocation of lens
           9B11.Y Other disorders of lens
         9B1Z Disorders of lens, unspecified
-        9B3Y anterior segment
-        9B3Z anterior segment, unspecified
-      BlockL1-9B5 posterior segment
+      9B3Y Other specified disorders of the eyeball - anterior segment
+      9B3Z Disorders of the eyeball - anterior segment, unspecified
+    BlockL1-9B5 Disorders of the eyeball - posterior segment
       BlockL2-9B5 Disorders of sclera
         9B50 Episcleritis
         9B51 Scleritis
@@ -5771,8 +5771,8 @@
         9B84 Vitreous opacities, membranes or strands
         9B8Y Other specified disorders of the vitreous body
         9B8Z Disorders of the vitreous body, unspecified
-        9C0Y posterior segment
-        9C0Z posterior segment, unspecified
+      9C0Y Other specified disorders of the eyeball - posterior segment
+      9C0Z Disorders of the eyeball - posterior segment, unspecified
     BlockL1-9C2 Disorders of the eyeball affecting both anterior and posterior segments
       9C20 Panuveitis
         9C20.0 Noninfectious panuveitis
@@ -7113,7 +7113,7 @@
         CB03.3 Desquamative interstitial pneumonitis
         CB03.4 Idiopathic pulmonary fibrosis
         CB03.5 Lymphoid interstitial pneumonia
-          CB03.6 interstitial lung disease
+        CB03.6 Respiratory bronchiolitis - interstitial lung disease
         CB03.Y Other specified idiopathic interstitial pneumonitis
         CB03.Z Idiopathic interstitial pneumonitis, unspecified
       CB04 Primary interstitial lung diseases specific to infancy or childhood
@@ -12555,7 +12555,7 @@
       LD7Z Chromosomal anomalies, excluding gene mutations, unspecified
     LD90 Conditions with disorders of intellectual development as a relevant clinical feature
       LD90.0 Angelman syndrome
-        LD90.1 intellectual deficit
+      LD90.1 Early-onset parkinsonism - intellectual deficit
       LD90.2 Pelizaeus-Merzbacher-like disease
       LD90.3 Prader-Willi syndrome
       LD90.4 Rett syndrome
@@ -18301,16 +18301,16 @@
         SH9Z Four constitution medicine patterns (TM1), unspecified
       SJ1Y Other specified traditional medicine patterns (TM1)
       SJ1Z Traditional medicine patterns (TM1), unspecified
-      SJ3Y Module I
-      SJ3Z Module I, unspecified
+    SJ3Y Other specified supplementary Chapter Traditional Medicine Conditions - Module I
+    SJ3Z Supplementary Chapter Traditional Medicine Conditions - Module I, unspecified
         VD00 Attention functions [WHODAS]
         VD01 Memory functions [WHODAS]
         VD02 Solving problems [WHODAS]
         VD03 Basic learning [WHODAS]
-            VD04 spoken messages [WHODAS]
+        VD04 Communicating with - receiving - spoken messages [WHODAS]
         VD05 Conversation [WHODAS]
         VD10 Maintaining a standing position [WHODAS]
-          VD11 standing [WHODAS]
+        VD11 Changing body position - standing [WHODAS]
         VD12 Moving around within the home [WHODAS]
         VD13 Moving around outside the home and other buildings [WHODAS]
         VD14 Walking [WHODAS]
@@ -18319,9 +18319,9 @@
         VD22 Eating [WHODAS]
         VD23 Carrying out daily routine [WHODAS]
         VD30 Relating with strangers [WHODAS]
-          VD31 maintaining [WHODAS]
+        VD31 Informal relationship with friends - maintaining [WHODAS]
         VD32 Family relationships [WHODAS]
-          VD33 making new friends [WHODAS]
+        VD33 Informal relationship with friends - making new friends [WHODAS]
         VD34 Intimate relationships [WHODAS]
         VD40 Taking care of household responsibilities [WHODAS]
         VD41 Doing most important household tasks [WHODAS]
@@ -18393,7 +18393,7 @@
         VV91 Handling stress and other psychological demands
         VV9Y Other specified general tasks and demands
         VV9Z General tasks and demands, unspecified
-            VW00 spoken messages
+        VW00 Communicating with - receiving - spoken messages
         VW01 Conversation
         VW0Y Other specified communication
         VW0Z Communication, unspecified
@@ -18496,14 +18496,14 @@
           XS7Z Grade III
           XS7M Grade IV
           XS7H Undetermined grade
-            XS3A No limitation of physical activity
-            XS6B Slight limitation of physical activity
-            XS9T Marked limitation of physical activity
-            XS9F Unable to carry on any physical activity without discomfort
-            XS80 mild: FEV1≥ 80% predicted
-            XS7U moderate: 50% ≤FEV1 <80% predicted
-            XS8K severe: 30% ≤FEV1 <50% predicted
-            XS50 very severe: FEV1 <30% predicted
+          XS3A NYHA Class I - No limitation of physical activity
+          XS6B NYHA Class II - Slight limitation of physical activity
+          XS9T NYHA Class III - Marked limitation of physical activity
+          XS9F NYHA Class IV - Unable to carry on any physical activity without discomfort
+          XS80 GOLD 1 - mild: FEV1≥ 80% predicted
+          XS7U GOLD 2 - moderate: 50% ≤FEV1 <80% predicted
+          XS8K GOLD 3 - severe: 30% ≤FEV1 <50% predicted
+          XS50 GOLD 4 - very severe: FEV1 <30% predicted
           XS1Y Stage I: Asymptomatic, incomplete blood vessel obstruction
           XS5L Stage II: Mild claudication pain in limb
             XS5V Stage IIA: Claudication at a distance > 200 metres
@@ -18524,8 +18524,8 @@
           XS2W Grade I Category 2: Moderate claudication
           XS51 Grade 1 Category 3: Severe claudication
           XS8M Grade II Category 4: Ischaemic rest pain
-            XS6U nonhealing ulcer, focal gangrene with diffuse pedal ischaemia
-            XS0U extending above transmetatarsal (TM) level, functional foot no longer salvageable
+          XS6U Grade III Category 5: Minor tissue loss - nonhealing ulcer, focal gangrene with diffuse pedal ischaemia
+          XS0U Grade III Category 6: Major tissue loss - extending above transmetatarsal (TM) level, functional foot no longer salvageable
             XS5B No pain
             XS5D Mild pain
             XS9Q Moderate pain
@@ -18575,11 +18575,11 @@
         XT0S Pregnancy
         XT4Z Postpartum
         XT1G Puerperium
-          XT77 WHO Standard
-            XT5L Aus. Standard
-            XT5P Can. Standard
-            XT04 Ger. Standard
-            XT9S US Standard
+        XT77 Antenatal - WHO Standard
+          XT5L Antenatal - Aus. Standard
+          XT5P Antenatal - Can. Standard
+          XT04 Antenatal - Ger. Standard
+          XT9S Antenatal - US Standard
         XT16 Neonatal
           XT6P Early Neonatal
           XT30 Late Neonatal
@@ -20899,9 +20899,9 @@
                   XA9FX9 Left circumflex artery
                   XA7NQ7 Left anterior descending coronary artery
                     XA2N78 Diagonal branches of left anterior descending coronary artery
-                        XA20E5 first diagonal branch
-                        XA86J1 second diagonal branch
-                        XA5SR3 third diagonal branch
+                      XA20E5 D1 - first diagonal branch
+                      XA86J1 D2 - second diagonal branch
+                      XA5SR3 D3 - third diagonal branch
                   XA1SH6 Left obtuse marginal artery
                   XA3QP2 Ramus intermedius artery
                   XA5LW8 Septal artery
@@ -22023,9 +22023,9 @@
               XA2QF2 Anterior auricularis muscle
               XA3SS4 Aryepiglotticus muscle
               XA8GG0 Buccinator muscle
-                XA0UH6 inferior muscle
-                XA3S80 middle muscle
-                XA9568 superior muscle
+              XA0UH6 Constrictor of pharynx - inferior muscle
+              XA3S80 Constrictor of pharynx - middle muscle
+              XA9568 Constrictor of pharynx - superior muscle
               XA01U4 Corrugator supercilii muscle
               XA7W64 Cricothyroid muscle
               XA04G0 Depressor anguli oris muscle
@@ -22225,8 +22225,8 @@
               XA7BY4 Gluteus minimus muscle
               XA1HH2 Gracilis muscle
               XA0200 Iliacus muscle
-                XA15P6 dorsal of foot muscle
-                XA8TS8 plantar of foot muscle
+              XA15P6 Interossei - dorsal of foot muscle
+              XA8TS8 Interossei - plantar of foot muscle
               XA7PN0 Lumbricals of foot muscle
               XA7Y24 Obturator externus muscle
               XA11E8 Obturator internus muscle
@@ -22498,7 +22498,7 @@
                 XA4UM5 Anterior wall of bladder
                 XA2562 Posterior wall of bladder
                 XA6SR9 Superior wall of bladder
-                  XA2UZ6 duplication
+                XA2UZ6 Trigone of urinary bladder - duplication
               XA6KF2 Trigone of bladder
                 XA4P63 Ureteric orifice
                 XA8KN5 Internal urethral orifice
@@ -23220,7 +23220,7 @@
           XH2ZA2 Bronchial adenoma, carcinoid
           XH5TR7 Adenocarcinoma of lung, mixed mucinous and non-mucinous
           XH7GY6 Adenocarcinoma of lung, mucinous
-            XH2035 mucinous
+          XH2035 Bronchiolo-alveolar carcinoma, non- mucinous
           XH6LF9 Carcinoma simplex
           XH0XL5 Carcinoma, diffuse type
           XH7M15 Cholangiocarcinoma
@@ -24641,7 +24641,7 @@
             XH8EM2 In situ mantle cell neoplasia
             XH3SG2 EBV positive mucocutaneous ulcer
             XH4L38 In situ follicular neoplasia
-            XH3400 and NK-cell lymphomas
+          XH3400 Mature T- and NK-cell lymphomas
             XH8R56 Mycosis fungoides
             XH0EH1 Granulomatous slack skin
             XH8HN3 Sezary syndrome
@@ -25003,7 +25003,7 @@
           XE1MP Animal-powered means of transport
             XE0ZZ Animal being ridden
             XE1CF Animal-drawn vehicle
-            XE3ZP or three-wheeled vehicle
+          XE3ZP Motorised two- or three-wheeled vehicle
             XE0TY Motorcycle
             XE9N6 Moped, scooter
             XE9AX Three-wheeled motor vehicle or scooter
@@ -25146,7 +25146,7 @@
             XE959 Toy vehicle
             XE93L Toy gun or related accessory
             XE8ZY Other toy weapon or projectile toy
-              XE1DG art, craft, or kit
+            XE1DG Toy - art, craft, or kit
             XE9DY Board game or accessory or piece
             XE887 Toy sports equipment
             XE1HM Ball, general, other than sport specific
@@ -25312,8 +25312,8 @@
             XE8C0 Gymnastic equipment
             XE76Q Sports mat for playing sports or exercise
             XE9TW Diving board, platform
-              XE1EH movable
-              XE6G9 fixed
+            XE1EH Exercise, fitness equipment - movable
+            XE6G9 Exercise, fitness equipment - fixed
           XE70Q Equipment with wheels or designed for movement, mainly for use in sports or recreational activity
             XE38Q Roller skates, rollerski, in-line skates, roller blades
             XE7TJ Skateboard
@@ -25341,7 +25341,7 @@
             XE3BT Crane machinery or fixed plant
             XE9U1 Elevated work platform
             XE6T6 Conveyors
-              XE99N gas, water, sewerage, steam, hot water, electricity
+            XE99N Mains - gas, water, sewerage, steam, hot water, electricity
             XE8FD Shearing plant
             XE6VH Dairy or milking plant
             XE6AF Press
@@ -25477,16 +25477,16 @@
             XE4BD Window
             XE5B1 Exterior window shutters
           XE7SG Floor or related fitting or feature
-              XE0SK carpeted
-              XE19Z tile, brick, concrete
-              XE6M6 wood
-              XE6ZE mud, clay, animal dung
+            XE0SK Floor - carpeted
+            XE19Z Floor - tile, brick, concrete
+            XE6M6 Floor - wood
+            XE6ZE Floor - mud, clay, animal dung
           XE4ZE Wall or related fitting or feature
             XE19W Fireplace
             XE1B2 Built-in barbecue
-              XE0WS brick, concrete, tile
-              XE7CH wood
-              XE3GJ mud, clay, animal dung
+            XE0WS Wall - brick, concrete, tile
+            XE7CH Wall - wood
+            XE3GJ Wall - mud, clay, animal dung
           XE3PF Certain specified building, building component, or fitting
             XE39L In-ground swimming pool
             XE4PB Above-ground swimming pool, external spa, or hot tub
@@ -25534,7 +25534,7 @@
             XE3LV Snow, ice
             XE233 Natural grass
             XE83R Rock, stone, not elsewhere classified
-              XE2JN timber, board, splinter, not elsewhere classified
+            XE2JN Wood - timber, board, splinter, not elsewhere classified
             XE9D4 Gravel, soil, sand, not elsewhere classified
             XE36E Hay, straw
             XE410 Grain in bulk
@@ -25542,10 +25542,10 @@
             XE59G Artificial grass
             XE6MG Brick, concrete, concrete block
             XE983 Molten metal
-              XE1FP sheet, part, piece etc.
-              XE1LM sheet, part, piece
+            XE1FP Metal - sheet, part, piece etc.
+            XE1LM China, ceramics - sheet, part, piece
             XE57U Molten glass
-              XE4KU sheet, piece, shard
+            XE4KU Glass - sheet, piece, shard
             XE7K4 Plastic
             XE63Q Paper, cardboard
             XE7CA Bitumen
@@ -25572,7 +25572,7 @@
             XE3KH Hot solid food
             XE36T Hot drink
             XE3VM Cold solid food
-              XE6SF non-alcoholic
+            XE6SF Cold drink - non-alcoholic
         XE4QT Law enforcement equipment
           XE8YS Handcuffs
         XE5TH Public use item
@@ -25810,17 +25810,17 @@
             XE5YL Vehicle out of control without mention of collision with another vehicle or fixed object
           XE3GK Team ball sports
             XE9UG Type of sport or exercise activity, basketball
-              XE3T2 American tackle
-              XE31W American touch or flag
-              XE72L Australian rules
+            XE3T2 Type of sport or exercise activity, football - American tackle
+            XE31W Type of sport or exercise activity, football - American touch or flag
+            XE72L Type of sport or exercise activity, football - Australian rules
             XE3BA Type of sport or exercise activity, football not otherwise specified
-              XE7D6 team
+            XE7D6 Type of sport or exercise activity, handball - team
             XE510 Type of sport or exercise activity, netball
             XE9RW Type of sport or exercise activity, rugby union
             XE5XZ Type of sport or exercise activity, rugby league
             XE1XR Type of sport or exercise activity, rugby not otherwise specified
-              XE5EU outdoor
-              XE0TN indoor
+            XE5EU Type of sport or exercise activity, soccer - outdoor
+            XE0TN Type of sport or exercise activity, soccer - indoor
             XE8WP Type of sport or exercise activity, soccer not otherwise specified
             XE79M Type of sport or exercise activity, volleyball
             XE0JP Type of sport or exercise activity, wallyball
@@ -25828,7 +25828,7 @@
             XE84M Type of sport or exercise activity, baseball
             XE5M7 Type of sport or exercise activity, cricket
             XE2UD Type of sport or exercise activity, ice hockey
-              XE6B7 street or ball
+            XE6B7 Type of sport or exercise activity, hockey - street or ball
             XE8HB Type of sport or exercise activity, field hockey
             XE9N5 Type of sport or exercise activity, floor hockey
             XE02P Type of sport or exercise activity, hockey not otherwise specified
@@ -25851,7 +25851,7 @@
           XE6W9 Individual water sports
             XE3R2 Type of sport or exercise activity, platform diving
             XE7S0 Type of sport or exercise activity, springboard diving
-              XE5UC unspecified
+            XE5UC type of sport/exercise activity, diving - unspecified
             XE5FN Type of sport or exercise activity, fishing
             XE1TE Type of sport or exercise activity, scuba diving
             XE1ZK Type of sport or exercise activity, snorkelling
@@ -25869,8 +25869,8 @@
             XE1SZ Type of sport or exercise activity, ice skating or ice dancing
             XE9KF Type of sport or exercise activity, luge
             XE7E1 Type of sport or exercise activity, ski patrolling
-              XE9X7 alpine or downhill
-              XE8CR Nordic cross country
+            XE9X7 Type of sport or exercise activity, skiing - alpine or downhill
+            XE8CR Type of sport or exercise activity, skiing - Nordic cross country
             XE8UF Type of sport or exercise activity, freestyle skiing
             XE471 Type of sport or exercise activity, snow ski jumping
             XE240 Type of sport or exercise activity, snowmobiling
@@ -25881,33 +25881,33 @@
             XE286 Type of sport or exercise activity, aerobic or callisthenics
             XE5KC Type of sport or exercise activity, jogging or running
             XE05C Type of sport or exercise activity, tai chi
-              XE1SW racing over obstacles or hurdles
-              XE02A sprinting (1-400 metres)
-              XE2RC running middle distances (401-1,500 metres)
-              XE4Y7 running long distances (greater than 1,500 metres)
-              XE1X1 high jump
-              XE10W long jump
-              XE8YM pole vault
-              XE5X4 triple jump
-              XE4C5 discus
-              XE037 javelin
-              XE1FT hammer throw
-              XE3M7 shot putt
+            XE1SW Type of sport or exercise activity, track and field - racing over obstacles or hurdles
+            XE02A Type of sport or exercise activity, track and field - sprinting (1-400 metres)
+            XE2RC Type of sport or exercise activity, track and field - running middle distances (401-1,500 metres)
+            XE4Y7 Type of sport or exercise activity, track and field - running long distances (greater than 1,500 metres)
+            XE1X1 Type of sport or exercise activity, track and field - high jump
+            XE10W Type of sport or exercise activity, track and field - long jump
+            XE8YM Type of sport or exercise activity, track and field - pole vault
+            XE5X4 Type of sport or exercise activity, track and field - triple jump
+            XE4C5 Type of sport or exercise activity, track and field - discus
+            XE037 Type of sport or exercise activity, track and field - javelin
+            XE1FT Type of sport or exercise activity, track and field - hammer throw
+            XE3M7 Type of sport or exercise activity, track and field - shot putt
             XE2TV Type of sport or exercise activity, walking
             XE7F9 Type of sport or exercise activity, yoga or Pilates
             XE9V7 Type of sport or exercise activity, stationary aerobic exercise with equipment
           XE4HZ Acrobatic sports
             XE2T9 Type of sport or exercise activity, cheerleading
-              XE65D balance beam
-              XE5WY floor exercise or tumbling
-              XE69D high bar
-              XE6R6 parallel bars
-              XE4YF rhythmic with or without props
-              XE8WK rings
-              XE802 side horse or pommel horse
-              XE8V7 trampoline or mini-trampoline
-              XE5KU uneven parallel bars
-              XE7PU vault
+            XE65D Type of sport or exercise activity, gymnastics - balance beam
+            XE5WY Type of sport or exercise activity, gymnastics - floor exercise or tumbling
+            XE69D Type of sport or exercise activity, gymnastics - high bar
+            XE6R6 Type of sport or exercise activity, gymnastics - parallel bars
+            XE4YF Type of sport or exercise activity, gymnastics - rhythmic with or without props
+            XE8WK Type of sport or exercise activity, gymnastics - rings
+            XE802 Type of sport or exercise activity, gymnastics - side horse or pommel horse
+            XE8V7 Type of sport or exercise activity, gymnastics - trampoline or mini-trampoline
+            XE5KU Type of sport or exercise activity, gymnastics - uneven parallel bars
+            XE7PU Type of sport or exercise activity, gymnastics - vault
           XE9SK Aesthetic activities
             XE6H2 Type of sport or exercise activity, dancing
             XE0R2 Type of sport or exercise activity, marching
@@ -25942,7 +25942,7 @@
             XE7RA Type of sport or exercise activity, tae kwon do
             XE0CG Type of sport or exercise activity, freestyle wrestling
             XE8M6 Type of sport or exercise activity, Greco-Roman wrestling
-              XE4QQ entertainment style
+            XE4QQ Type of sport or exercise activity, professional wrestling - entertainment style
             XE75J Type of sport or exercise activity, self defence training
           XE1EU Power sports
             XE7QE Type of sport or exercise activity, power lifting
@@ -25989,38 +25989,38 @@
             XE72X Type of sport or exercise activity, spinning or stationary bike riding
             XE78K Type of sport or exercise activity, street luge
           XE7BS Multidiscipline sports
-              XE3BK cross-country skiing event
-              XE05T shooting event
-              XE7ZX unspecified event
-              XE5PT 100 metre event
-              XE7ND 400 metre event
-              XE9AM 1,500 metre event
-              XE5C1 110 metre hurdles event
-              XE6CK long jump event
-              XE331 high jump event
-              XE6GN shot put event
-              XE11Q discus event
-              XE37C javelin event
-              XE7LJ pole vault event
-              XE48E unspecified event
-              XE4LW 200 metre event
-              XE9EF 100 metre hurdles event
-              XE90J high jump event
-              XE8WE long jump event
-              XE7TG javelin event
-              XE294 shot putt event
-              XE4CW 800 metre event
-              XE1JE unspecified event
-              XE3GA shooting event
-              XE758 fencing event
-              XE7GA swimming event
-              XE8KQ equestrian event
-              XE84E running event
-              XE2B4 unspecified event
-              XE2XU cycling event
-              XE0J9 running event
-              XE8ZK swimming event
-              XE01T unspecified event
+            XE3BK Type of sport or exercise activity, biathlon - cross-country skiing event
+            XE05T Type of sport or exercise activity, biathlon - shooting event
+            XE7ZX Type of sport or exercise activity, biathlon - unspecified event
+            XE5PT Type of sport or exercise activity, decathlon - 100 metre event
+            XE7ND Type of sport or exercise activity, decathlon - 400 metre event
+            XE9AM Type of sport or exercise activity, decathlon - 1,500 metre event
+            XE5C1 Type of sport or exercise activity, decathlon - 110 metre hurdles event
+            XE6CK Type of sport or exercise activity, decathlon - long jump event
+            XE331 Type of sport or exercise activity, decathlon - high jump event
+            XE6GN Type of sport or exercise activity, decathlon - shot put event
+            XE11Q Type of sport or exercise activity, decathlon - discus event
+            XE37C Type of sport or exercise activity, decathlon - javelin event
+            XE7LJ Type of sport or exercise activity, decathlon - pole vault event
+            XE48E Type of sport or exercise activity, decathlon - unspecified event
+            XE4LW Type of sport or exercise activity, heptathlon - 200 metre event
+            XE9EF Type of sport or exercise activity, heptathlon - 100 metre hurdles event
+            XE90J Type of sport or exercise activity, heptathlon - high jump event
+            XE8WE Type of sport or exercise activity, heptathlon - long jump event
+            XE7TG Type of sport or exercise activity, heptathlon - javelin event
+            XE294 Type of sport or exercise activity, heptathlon - shot putt event
+            XE4CW Type of sport or exercise activity, heptathlon - 800 metre event
+            XE1JE Type of sport or exercise activity, heptathlon - unspecified event
+            XE3GA Type of sport or exercise activity, modern pentathlon - shooting event
+            XE758 Type of sport or exercise activity, modern pentathlon - fencing event
+            XE7GA Type of sport or exercise activity, modern pentathlon - swimming event
+            XE8KQ Type of sport or exercise activity, modern pentathlon - equestrian event
+            XE84E Type of sport or exercise activity, modern pentathlon - running event
+            XE2B4 Type of sport or exercise activity, modern pentathlon - unspecified event
+            XE2XU Type of sport or exercise activity, triathlon - cycling event
+            XE0J9 Type of sport or exercise activity, triathlon - running event
+            XE8ZK Type of sport or exercise activity, triathlon - swimming event
+            XE01T Type of sport or exercise activity, triathlon - unspecified event
           XE03W Aero (non-motored) sports
             XE34L Type of sport or exercise activity, aerobatics
             XE88Y Type of sport or exercise activity, gliding
@@ -26031,7 +26031,7 @@
           XE68C Other school-related recreational activities
             XE49T Type of sport or exercise activity, school physical education class
             XE67P Type of sport or exercise activity, school free play
-            XE9ET Training or practice
+          XE9ET Phase of sport or exercise activity - Training or practice
             XE1U5 Phase of activity, sport-specific or skill-specific practice
             XE07B Phase of activity, scrimmaging
             XE0BT Phase of activity, strength and conditioning or weight training
@@ -26039,7 +26039,7 @@
             XE583 Phase of activity, not otherwise specified training or practice
           XE8MZ Phase of activity, pre-event
           XE2D1 Phase of activity, warm-up
-            XE5TJ Competition or participation
+          XE5TJ Phase of sport or exercise activity - Competition or participation
             XE66C Phase of activity, competition or participation, first 25% of expected event duration
             XE0QY Phase of activity, competition or participation, middle 50% of expected event duration
             XE2CG Phase of activity, competition or participation, last 25% of expected event duration
@@ -26087,16 +26087,16 @@
           XE7X1 Economic activity, other community, social, or personal service activities
           XE2PM Economic activity, private households with employed persons
           XE6N7 Economic activity, extra-territorial organisations or bodies
-            XE3TU legislators, senior officials, managers
-            XE59Y professionals
-            XE558 technicians or associate professionals
-            XE17U clerks, secretaries
-            XE1CA service workers, shop and market sales workers
-            XE6TG skilled agriculture or fishery workers
-            XE0VC craft or related trades workers
-            XE37Y plant/machine operators or assemblers
-            XE4EE elementary occupations
-            XE5G8 armed forces
+          XE3TU Occupation - legislators, senior officials, managers
+          XE59Y Occupation - professionals
+          XE558 Occupation - technicians or associate professionals
+          XE17U Occupation - clerks, secretaries
+          XE1CA Occupation - service workers, shop and market sales workers
+          XE6TG Occupation - skilled agriculture or fishery workers
+          XE0VC Occupation - craft or related trades workers
+          XE37Y Occupation - plant/machine operators or assemblers
+          XE4EE Occupation - elementary occupations
+          XE5G8 Occupation - armed forces
           XE454 Spouse or partner
             XE041 Perpetrator-victim relationship, legal spouse
             XE8JN Perpetrator-victim relationship, cohabiting partner
@@ -29256,7 +29256,7 @@
                 XM8EW6 Benidipine
                 XM5GS7 Clevidipine
                 XM91L4 Levamlodipine
-                XM2XU6 selective
+              XM2XU6 Phenylalkylamine derivatives - selective
                 XM5GX3 Verapamil
                 XM2WH6 Gallopamil
               XM6GX5 Mibefradil
@@ -29264,7 +29264,7 @@
               XM1EL1 Tiapamil
               XM3BC0 Oxodipine
             XM2JS2 Non-selective calcium-channel blockers
-                XM6T88 non-selective
+              XM6T88 Phenylalkylamine derivatives - non-selective
                 XM1LR8 Bepridil
                 XM5BR3 Fendiline
               XM3NU8 Lidoflazine
@@ -29674,7 +29674,7 @@
               XM3WS8 Monoethanolamine
               XM4DD8 Polidocanol
               XM81W1 Sotradecol
-              XM36U7 and beta-adrenoreceptor agonists
+            XM36U7 Alpha- and beta-adrenoreceptor agonists
               XM9187 Etilefrine
               XM6RQ3 Mephentermine
               XM3273 Epinephrine
@@ -33466,7 +33466,7 @@
                 XM12L2 Chlordane
                 XM7JD5 Chlorobenzilate
                 XM9EL1 DDT
-                    XM1UT2 [dichlorodiphenyldichloroethylene]
+                  XM1UT2 DDE - [dichlorodiphenyldichloroethylene]
                 XM3XK2 Paradichlorobenzene
                 XM2CK5 Dicofol
                 XM5U23 Dieldrin
@@ -34769,26 +34769,26 @@
           XD04L8 Stethoscopes, MRI
         XD8V84 Dialysis filters
           XD8DD4 Haemodialysis, hemofiltration, haemodiafiltration filters
-              XD2KJ5 UHF < 18 ml/h/mmHg
-                XD2N29 UHF < 18 ml/h/mmHg, cellulose membranes
-                XD6QR4 UHF < 18 ml/h/mmHg, substituted cellulose membranes
-                XD5S48 UHF < 18 ml/h/mmHg, synthetic membranes
-                  XD2DL2 others
-                XD4WX5 35 ml/h/mmHg
-                  XD9RP1 35 ml/h/mmHg, cellulose membranes
-                  XD0XB0 35 ml/h/mmHg, substituted cellulose membranes
-                  XD2KD5 35 ml/h/mmHg, synthetic membranes
-                    XD7ZP1 others
-              XD1904 UHF > 35 ml/h/mmHg
-                XD2T66 UHF > 35 ml/h/mmHg, cellulose membranes
-                XD4S95 UHF > 35 ml/h/mmHg, substituted cellulose membranes
-                XD4379 UHF > 35 ml/h/mmHg, synthetic membranes
-                  XD8UZ1 others
+            XD2KJ5 Dialyzers - UHF < 18 ml/h/mmHg
+              XD2N29 Dialyzers - UHF < 18 ml/h/mmHg, cellulose membranes
+              XD6QR4 Dialyzers - UHF < 18 ml/h/mmHg, substituted cellulose membranes
+              XD5S48 Dialyzers - UHF < 18 ml/h/mmHg, synthetic membranes
+              XD2DL2 Dialyzers - UHF < 18 ml/h/mmHg - others
+            XD4WX5 Dialyzers - UHF = 18 - 35 ml/h/mmHg
+              XD9RP1 Dialyzers - UHF = 18 - 35 ml/h/mmHg, cellulose membranes
+              XD0XB0 Dialyzers - UHF = 18 - 35 ml/h/mmHg, substituted cellulose membranes
+              XD2KD5 Dialyzers - UHF = 18 - 35 ml/h/mmHg, synthetic membranes
+              XD7ZP1 Dialyzers - UHF = 18 - 35 ml/h/mmHg - others
+            XD1904 Dialyzers - UHF > 35 ml/h/mmHg
+              XD2T66 Dialyzers - UHF > 35 ml/h/mmHg, cellulose membranes
+              XD4S95 Dialyzers - UHF > 35 ml/h/mmHg, substituted cellulose membranes
+              XD4379 Dialyzers - UHF > 35 ml/h/mmHg, synthetic membranes
+              XD8UZ1 Dialyzers - UHF > 35 ml/h/mmHg - others
             XD8VS0 Dialyzers for special hemodiafiltration and other therapies
           XD1V74 Hemoperfusion filters
             XD27T5 Hemoperfusion carbon filters
             XD2RV2 Hemoperfusion resin filters
-              XD9GN2 others
+            XD9GN2 Hemoperfusion filters - others
           XD5TA3 Absorption filters and columns
             XD8NE7 Immunoabsorption filters and columns
               XD0TG6 Immunoabsorption filters
@@ -34796,26 +34796,26 @@
             XD3RD1 Endotoxin removal filters and columns
               XD5SV0 Endotoxin removal filters
               XD6KC0 Endotoxin removal columns
-            XD5DX9 others
+          XD5DX9 Haemodialysis filters - others
         XD6F86 Dialysis lines
-            XD12J0 haemodialysis-haemofiltration-haemodiafiltration
+          XD12J0 Dialysis lines - haemodialysis-haemofiltration-haemodiafiltration
             XD5BR1 Artero-venous dialysis lines, one needle
             XD0B51 Artero-venous dialysis lines, two needles
             XD5ED6 Reinfusion dialysis lines
-              XD8QE4 accessories
-              XD0270 others
+            XD8QE4 Artero-venous dialysis lines - accessories
+            XD0270 Artero-venous dialysis lines - others
           XD65W3 Peritoneal dialysis lines
             XD51F1 Permanent peritoneal dialysis lines
               XD65K8 Permanent peritoneal dialysis lines, one bag (CAPD)
               XD6QD1 Permanent peritoneal dialysis lines, two bags (CAPD)
-                XD0DE3 others
+              XD0DE3 Permanent peritoneal dialysis lines - others
             XD8H28 Temporary peritoneal dialysis lines
               XD6606 Temporary peritoneal dialysis lines, gravimetric (APD)
               XD89M1 Temporary peritoneal dialysis lines, with pump (APD)
-                XD2M70 others
-              XD4SJ0 accessories
-              XD2WX9 others
-            XD0ZQ3 others
+              XD2M70 Temporary peritoneal dialysis lines - others
+            XD4SJ0 Peritoneal dialysis lines - accessories
+            XD2WX9 Peritoneal dialysis lines - others
+          XD0ZQ3 Dialysis lines - others
         XD83M2 Dialysis sets
           XD0KV9 Haemofiltration-haemodiafiltration sets
           XD0R67 Biofiltration sets
@@ -34824,7 +34824,7 @@
           XD2QE7 Hemoperfusion sets
           XD7QD7 Continuous dialysis sets
           XD5KR3 Ultrafiltration sets
-            XD9Z50 others
+          XD9Z50 Dialysis sets - others
         XD5C20 Dialysates
           XD62N1 Dialysates, acid solutions
             XD3V66 Dialysates, acid solutions, non-sterile
@@ -34833,18 +34833,18 @@
             XD2JY9 Dialysates, basic solutions, powder
             XD5240 Dialysates, basic solutions, liquid
           XD6LX2 Dialysates, without acetate buffer
-              XD9594 AFB
-              XD6W13 other treatments
+            XD9594 Dialysates, without acetate buffer - AFB
+            XD6W13 Dialysates, without acetate buffer - other treatments
           XD7157 Dialysis procedures, salts
-            XD67E6 others
-          XD8VC9 various
+          XD67E6 Dialysates - others
+        XD8VC9 Dialysis devices - various
           XD18U5 Peritoneal dialysis devices (not in other groups)
             XD7RE0 Peritoneal dialysis, catheters
-              XD47T0 others
+            XD47T0 Peritoneal dialysis - others
           XD8689 Vascular access devices (only for haemodialysis)
             XD9YY6 Temporary haemodialysis, catheters
             XD3AU4 Permanent haemodialysis, catheters
-              XD3297 others
+            XD3297 Vascular access devices (only for haemodialysis) - others
           XD2EM7 Dialysis, adaptors
             XD8Q72 Haemodialysis, adaptors
             XD39M3 Peritoneal dialysis, adaptors
@@ -34854,15 +34854,15 @@
               XD22A9 Peritoneal dialysate tanks, collection
             XD1ZR7 Dialysate tanks, reinfusion
           XD8A37 Extracorporeal dialysis devices
-            XD9KW0 other accessories
-            XD46Z0 others
+          XD9KW0 Dialysis devices - other accessories
+          XD46Z0 Dialysis devices - others
         XD53A5 Naso-gastric tube
         XD9246 Nasopharyngeal tubes
         XD2M69 Airway guedel tubes
         XD78N3 Laryngeal masks
         XD0T92 Endotracheal tubes, without cuff
         XD37X2 Endotracheal tubes, with cuff
-          XD3UM6 accessories
+        XD3UM6 Endotracheal tubes - accessories
         XD2MG6 Tracheolaringostomy cannulas and kits, with cuff
         XD7EB1 Bipap/CPAP circuits
         XD5GF6 Respiratory masks and balloons, single-use and reusable
@@ -34886,10 +34886,10 @@
         XD9YL7 Transport media
         XD9S44 Coronavirus-NA Reagents
         XD9N16 Coronavirus (diagnostic)
-          XD7M68 RT & POC
+        XD7M68 Other Virology - RT & POC
         XD1C76 Reagents for DNA and/or RNA extraction and preparation : bacteria and/or virus
         XD6EG0 Blood gas portable analysers
-          XD80L4 others
+        XD80L4 Samples transport containers- others
         XD6EX8 Ultrasound Scanners
           XD89G9 Ultrasound Scanners, Mobile
           XD7FU9 Ultrasound Scanners, Portable

@@ -10,9 +10,11 @@
 
 @POST
 L("word") = strtolower(N("$text",1));
-L("word con") = findconcept(G("word"),L("word"));
+L("word con") = findconcept(G("words"),L("word"));
+"debug.txt" << "word: " << L("word") << "\n";
 
 if (L("word con")) {
+	"debug.txt" << "Found word: " << L("word") << "\n";
 	L("code") = down(L("word con"));
 	while (L("code")) {
 		L("con") = AddUniqueCon(G("matches"),conceptname(L("code")));
@@ -23,5 +25,5 @@ if (L("word con")) {
 
 @RULES
 _xNIL <-
-	_xALPHA	### (1)
+	_xWILD [one match=(_xALPHA _xNUM)]	### (1)
 	@@
