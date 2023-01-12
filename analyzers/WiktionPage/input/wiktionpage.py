@@ -13,14 +13,14 @@ urlbase = "https://en.wiktionary.org/w/index.php?title="
 urlsuffix = "&action=edit"
   
 count = 0
-for word in lines:
+for word in reversed(lines):
     word = word.strip()
     wiktionfile = os.path.join(os.path.dirname(__file__), "wiktionary", word + ".txt")
     print(word, end =" ")
 
     if os.path.exists(wiktionfile):
         print (' exists')
-        # continue
+        continue
 
     url = urlbase + word + urlsuffix;
     found = False
@@ -29,7 +29,7 @@ for word in lines:
         page = urllib.request.urlopen(url)
     except HTTPError as e:
         print(' Error code: ', e.code)
-        file1 = open("wikophans.txt", "a")  # append mode
+        file1 = open(os.path.join(os.path.dirname(__file__), "wikophans.txt"), "a")
         file1.write(word + "\n")
         file1.close()
     except URLError as e:
@@ -44,13 +44,19 @@ for word in lines:
 
         if wiktion_page:
             pagetext = wiktion_page.text
-            print(' found')
-            file = codecs.open(wiktionfile, "w", "utf-8")
-            file.write(word + '\n' + pagetext)
-            file.close()
+            if pagetext:
+                print(' DOWNLOADED')
+                file = codecs.open(wiktionfile, "w", "utf-8")
+                file.write(word + '\n' + pagetext)
+                file.close()
+            else:
+                print(' <=== Not in dictionary')
+                file1 = open(os.path.join(os.path.dirname(__file__), "noentry.txt"), "a")
+                file1.write(word + "\n")
+                file1.close()
         
         else:
             print(' no defs')
-            file2 = open("nopages.txt", "a")
+            file2 = open(os.path.join("input","nopages.txt"), "a")
             file2.write(word + "\n")
             file2.close()

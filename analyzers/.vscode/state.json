@@ -3,7 +3,7 @@
         {
             "name": "Analyzer",
             "type": "state",
-            "currentAnalyzer": "c:\\git\\ICD\\ICDtoKBB"
+            "currentAnalyzer": "c:\\git\\ICD\\analyzers\\FindCodes"
         }
     ]
 }

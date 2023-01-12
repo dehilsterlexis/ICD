@@ -19,13 +19,15 @@ while (L("word")) {
     L("word") = next(L("word"));
 }
 
-sortchilds(G("lookups"));
-# sortchilds(G("words"));
+# sortchilds(G("lookups"));
+# DisplayKB(G("lookups"),0);
 
-DisplayKB(G("lookups"),0);
-# DisplayKB(G("words"),0);
+sortchilds(G("codes"));
+DisplayKB(G("codes"),0);
 
-# DisplayKB(G("codes"),0);
+sortchilds(G("words"));
+DisplayKB(G("words"),0);
+
 # DisplayKB(G("pos"),0);
 
 @@CODE

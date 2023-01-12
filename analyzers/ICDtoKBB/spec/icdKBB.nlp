@@ -11,10 +11,12 @@
 @POST
 
 L("file") = "icd.kbb";
+L("hier") = "icdhier.kbb";
 
 if (X("num")) {
 	if (X("num") == 1 && N("num") == 0) {
 		L("file") << "ICD11";
+		L("hier") << "ICD11";
 	}
 
 	if (N("num") == 0 && N("value")) {
@@ -25,16 +27,21 @@ if (X("num")) {
 	}
 	else if (N("num") == 2) {
 		L("code") = X("code");
-		if (strcontains(".",L("code")) || strcontains("-",L("code"))) {
-			L("code") = "\"" + L("code") + "\"";
-		}
+		# if (strcontains(".",L("code")) || strcontains("-",L("code"))) {
+		# 	L("code") = "\"" + L("code") + "\"";
+		# }
 		if (!L("code")) {
 			L("kind") = X("ClassKind");
 			L("code") = strtotitle(L("kind")) + PadStr(str(G("chapter")++),"0",3);
 		} else if (X("code")) {
 			"codetitles.txt" << SpacesStr(N("indent")+1) << X("code") << " " << N("title") << "\n";
 		}
-		L("file") << "\n" << SpacesStr(N("indent")) << L("code") << ": title=[" << N("title") << "]";
+		L("file") << "\n" << SpacesStr(N("indent")) << L("code");
+		L("hier") << "\n" << SpacesStr(N("indent")) << L("code");
+		if (strlength(N("title")) > 1) {
+			L("file") << ": title=\"" << N("title") << "\"";
+			L("hier") << ": title=\"" << N("title") << "\"";
+		}
 	}
 	if (N("num") > 2 && N("value")) {
 		L("file") << " " << N("header") << "=[" << N("value") << "]";

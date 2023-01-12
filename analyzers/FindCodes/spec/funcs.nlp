@@ -1,0 +1,20 @@
+###############################################
+# FILE: funcs
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-10 18:32:22
+# MODIFIED:
+###############################################
+
+@DECL
+
+MatchCount(L("word")) {
+    L("code") = down(G("codes"));
+    while (L("code")) {
+        
+        L("code") = next(L("code"));
+    }
+
+}
+
+@@DECL

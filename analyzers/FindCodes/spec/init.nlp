@@ -1,0 +1,16 @@
+###############################################
+# FILE: init
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-10 18:27:26
+# MODIFIED:
+###############################################
+
+@CODE
+
+G("codes") = getconcept(findroot(),"codes");
+G("word") = getconcept(findroot(),"word");
+G("matches") = getconcept(findroot(),"matches");
+G("icd11") = getconcept(findroot(),"ICD11");
+
+@@CODE

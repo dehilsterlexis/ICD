@@ -15,7 +15,7 @@ if (X("num",2)) {
 
 @RULES
 _xNIL <-
-	_space					### (1)
-	_xWILD [fail=(_space)]	### (2)
+	_indent					### (1)
+	_xWILD [fail=(_xEND)]	### (2)
 	_xEND					### (3)
 	@@
