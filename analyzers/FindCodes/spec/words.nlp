@@ -1,0 +1,27 @@
+###############################################
+# FILE: words
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-10 18:27:55
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+L("word") = strtolower(N("$text",1));
+L("word con") = findconcept(G("word"),L("word"));
+
+if (L("word con")) {
+	L("code") = down(L("word con"));
+	while (L("code")) {
+		L("con") = AddUniqueCon(G("matches"),conceptname(L("code")));
+		AddUniqueCon(L("con"),L("word"));
+		L("code") = next(L("code"));
+	}
+}
+
+@RULES
+_xNIL <-
+	_xALPHA	### (1)
+	@@

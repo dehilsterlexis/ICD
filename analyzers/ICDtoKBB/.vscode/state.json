@@ -3,8 +3,8 @@
         {
             "name": "Analyzer",
             "type": "state",
-            "currentTextFile": "c:\\git\\ICD\\ICDtoKBB\\input\\test03.txt",
-            "currentPassFile": "c:\\git\\ICD\\ICDtoKBB\\spec\\icdKBB.nlp"
+            "currentTextFile": "c:\\git\\ICD\\analyzers\\ICDtoKBB\\input\\hold\\LinearizationMiniOutput-MMS-en.csv",
+            "currentPassFile": "c:\\git\\ICD\\analyzers\\ICDtoKBB\\spec\\KBFuncs.nlp"
         }
     ]
 }
