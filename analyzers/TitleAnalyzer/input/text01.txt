@@ -1,3 +1,5 @@
-          1A09.0 Salmonella enteritis
-          1A09.Y Infections (due) to other Salmonella in other organs
-          1A09.Z Salmonella infection, unspecified
+      BlockL2-1A2 Viral intestinal infections
+        1A20 Enteritis due to Adenovirus
+        1A21 Gastroenteritis due to Astrovirus
+        1A22 Gastroenteritis due to Rotavirus
+        1A23 Enteritis due to Norovirus

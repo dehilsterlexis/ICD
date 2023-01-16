@@ -1,0 +1,23 @@
+###############################################
+# FILE: phrases
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-16 15:23:42
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _LINE _description
+
+@POST
+L("con") = getconcept(G("codes"),X("code",2));
+addstrval(L("con"),"disease",N("$text",1));
+addstrval(L("con"),"cause",N("$text",4));
+
+@RULES
+_newNode <-
+	_xALPHA	### (1)
+	due		### (2)
+	to		### (3)
+	_xALPHA	### (4)
+	@@
+		

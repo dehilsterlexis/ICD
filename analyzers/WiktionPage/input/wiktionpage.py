@@ -5,7 +5,7 @@ from urllib.error import URLError, HTTPError
 from bs4 import BeautifulSoup
 import re
 
-wordsfile = os.path.join(os.path.dirname(__file__), "lookups.txt")
+wordsfile = os.path.join(os.path.dirname(__file__), "test.txt")
 file1 = codecs.open(wordsfile, "r", "utf-8")
 lines = file1.readlines()
 
@@ -15,7 +15,7 @@ urlsuffix = "&action=edit"
 count = 0
 for word in reversed(lines):
     word = word.strip()
-    wiktionfile = os.path.join(os.path.dirname(__file__), "wiktionary", word + ".txt")
+    wiktionfile = os.path.join(os.path.dirname(__file__), "demo", word + ".txt")
     print(word, end =" ")
 
     if os.path.exists(wiktionfile):

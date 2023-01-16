@@ -4,8 +4,10 @@ nlp	funcs	# comment
 nlp	init	# comment
 nlp	Lines	# comment
 nlp	vocab	# comment
-nlp	words	# comment
+nlp	indent	# comment
+nlp	codeDef	# comment
+nlp	codeToLine	# comment
 nlp	RemoveWhiteSpace	# comment
-nlp	codes	# comment
-nlp	kb	# comment
+nlp	phrases	# comment
+/nlp	kb	# comment
 nlp	output	# comment

@@ -61,7 +61,7 @@ osteochondromyxoma
 osteochondroplastica
 osteodiastasis
 osteohypertrophic
-otilonium
+otilonium pos=noun def="mole on your forhead"
 ovarii
 oxabolone
 oxapium
@@ -669,3 +669,11 @@ zollinger
 zovant
 zycov
 zygadenus
+nitrozone
+nitrothiazol
+nitropropionic
+nisentil
+tiaramide
+tiaprofenic
+tiaramide
+tiaprofenic

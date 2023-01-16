@@ -1,0 +1,17 @@
+###############################################
+# FILE: codeToLine
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-1-16 15:26:56
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+X("code") = N("$text",1);
+
+@RULES
+_xNIL <-
+	_code
+	@@
