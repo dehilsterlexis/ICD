@@ -8,16 +8,16 @@
 
 @CODE
 
-L("word") = down(G("pos"));
-while (L("word")) {
-    L("pos") = down(L("word"));
-    L("w") = conceptname(L("word"));
-    while (L("pos")) {
-        "pos.dict" << L("w") << " pos=" << conceptname(L("pos")) << "\n";
-        L("pos") = next(L("pos"));
-    }
-    L("word") = next(L("word"));
-}
+# L("word") = down(G("pos"));
+# while (L("word")) {
+#     L("pos") = down(L("word"));
+#     L("w") = conceptname(L("word"));
+#     while (L("pos")) {
+#         "pos.dict" << L("w") << " pos=" << conceptname(L("pos")) << "\n";
+#         L("pos") = next(L("pos"));
+#     }
+#     L("word") = next(L("word"));
+# }
 
 # sortchilds(G("lookups"));
 # DisplayKB(G("lookups"),0);
@@ -25,8 +25,8 @@ while (L("word")) {
 sortchilds(G("codes"));
 DisplayKB(G("codes"),0);
 
-sortchilds(G("words"));
-DisplayKB(G("words"),0);
+# sortchilds(G("words"));
+# DisplayKB(G("words"),0);
 
 # DisplayKB(G("pos"),0);
 

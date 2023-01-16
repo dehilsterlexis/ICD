@@ -29,7 +29,7 @@ while (L("match")) {
 
 L("percent") = 100;
 L("count") = 1;
-while (L("percent") > 50) {
+while (L("percent") > 0) {
     L("con") = findconcept(G("order"),str(L("percent")));
     if (L("con")) {
         L("codes") = down(L("con"));
