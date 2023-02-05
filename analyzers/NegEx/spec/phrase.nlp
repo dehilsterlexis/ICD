@@ -1,0 +1,17 @@
+###############################################
+# FILE: phrase
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-2-4 13:27:22
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+	singler(1,1);
+@RULES
+_phrase <-
+	_xWILD [fail=(_code)]	### (1)
+	_code					### (2)
+	@@

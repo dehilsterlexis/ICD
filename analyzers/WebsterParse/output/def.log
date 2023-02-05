@@ -1,5 +1,0 @@
-Sequence file is:
-tokenize
-
-Passes: (tok,nil) (nlp,KBFuncs) (nlp,init) (nlp,markers) (nlp,word) (nlp,output) 
-

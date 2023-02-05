@@ -1,10 +1,0 @@
-Sequence file is:
-tokenize
-NOHASH rule: _LINE [] [] <- _xWILD [0,0 fails=( 
-)] [] _xWILD [1,1 matches=(
- _xEND)] [] @@
-NOHASH rule: _xNIL [] [] <- _xWHITE [1,1 singlet] [] @@
-NOHASH rule: _item [] [] <- _xSTART [1,1] [] _xWILD [0,0 fails=(_comma)] [] @@
-
-Passes: (tok,nil) (nlp,KBFuncs) (nlp,funcs) (nlp,init) (nlp,Lines) (nlp,spaces) (nlp,RemoveWhiteSpace) (nlp,strings) (nlp,commas) (nlp,items) (nlp,commaItem) (nlp,emptyItems) (nlp,indents) (nlp,title) (nlp,titleUp) (nlp,itemNumber) (,headersKBB) (nlp,icdKBB) 
-
