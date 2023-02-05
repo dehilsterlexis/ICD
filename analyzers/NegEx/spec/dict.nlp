@@ -1,0 +1,17 @@
+###############################################
+# FILE: dict
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-2-4 13:28:9
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _LINE
+
+@POST
+	"negex.dict" << N("$text",1) << " negex=" << X("code",2) << "\n";
+	"negtest.txt" << N("$text",1) << "\n";
+@RULES
+_xNIL <-
+	_phrase	### (1)
+	@@

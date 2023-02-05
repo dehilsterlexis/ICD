@@ -1,0 +1,13 @@
+###############################################
+# FILE: output
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-2-4 13:40:50
+# MODIFIED:
+###############################################
+
+@CODE
+
+SaveKB("everything.kbb",findroot(),2);
+
+@@CODE

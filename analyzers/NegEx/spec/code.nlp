@@ -1,0 +1,19 @@
+###############################################
+# FILE: code
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2023-2-4 13:23:26
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+	X("code",2) = strtolower(N("$text",2));
+	single();
+@RULES
+_code <-
+	\[		### (1)
+	_xALPHA	### (2)
+	\]		### (3)
+	@@
